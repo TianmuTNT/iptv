@@ -6,12 +6,16 @@ import os
 urls = [
     "http://8.138.7.223/live.txt",
     "https://7337.kstore.space/twkj/tvzb.txt",
-    "https://ghfast.top/https://raw.githubusercontent.com/tianya7981/jiekou/refs/heads/main/%E9%87%8E%E7%81%AB959",
+    "https://raw.githubusercontent.com/tianya7981/jiekou/refs/heads/main/%E9%87%8E%E7%81%AB959",
     "https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u",
     "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/APTV.m3u",
     "https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
-    'https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/TV-IPV4.m3u',
+    "https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/TV-IPV4.m3u",
     "https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/IPV6.m3u",
+    "https://raw.githubusercontent.com/zwc456baby/iptv_alive/master/live.txt",
+    "https://live.zbds.top/tv/iptv6.txt",
+    "https://live.zbds.top/tv/iptv4.txt",
+    "https://raw.githubusercontent.com/yuanzl77/IPTV/refs/heads/main/live.txt"
 ]
 
 ipv4_pattern = re.compile(r'^http://(\d{1,3}\.){3}\d{1,3}')
