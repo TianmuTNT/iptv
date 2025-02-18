@@ -1,4 +1,4 @@
-## Update on 2025-02-19 03:14:37 CST
+## Update on 
 ### Usage
 **Install a IPTV player first! (important)**
 
