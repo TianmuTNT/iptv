@@ -41,8 +41,7 @@ jobs:
         
     - name: Update time
       run: |
-        echo "DATE=$(date +'%Y-%m-%d %H:%M:%S CST')" >> $GITHUB_ENV
-        echo "## Update on $DATE
+        echo "## Update on $(date +'%Y-%m-%d %H:%M:%S CST')
         ### Usage
         **Install a IPTV player first! (important)**
         
