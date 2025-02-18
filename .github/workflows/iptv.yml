@@ -12,7 +12,7 @@ env:
   TZ: Asia/Shanghai
 
 jobs:
-  fetch_streams:
+  Update:
     runs-on: ubuntu-latest
 
     steps:
