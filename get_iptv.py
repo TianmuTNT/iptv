@@ -3,7 +3,6 @@ import pandas as pd
 import re
 import os
 
-# 多个网站 URL 列表
 urls = [
     "http://8.138.7.223/live.txt",
     "https://7337.kstore.space/twkj/tvzb.txt",
@@ -16,11 +15,9 @@ urls = [
     "https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/IPV6.m3u",
 ]
 
-# 区分IPv4和IPv6的正则表达式
 ipv4_pattern = re.compile(r'^http://(\d{1,3}\.){3}\d{1,3}')
 ipv6_pattern = re.compile(r'^http://\[([a-fA-F0-9:]+)\]')
 
-# 提示信息和容错处理
 def fetch_streams_from_url(url):
     print(f"正在爬取网站源: {url}")
     try:
@@ -37,7 +34,6 @@ def fetch_streams_from_url(url):
         print(f"请求 {url} 时发生错误: {e}")
         return None
 
-# 获取所有源，并处理错误
 def fetch_all_streams():
     all_streams = []
     for url in urls:
@@ -48,7 +44,6 @@ def fetch_all_streams():
             print(f"跳过来源: {url}")
     return "\n".join(all_streams)
 
-# 处理M3U文件的内容
 def parse_m3u(content):
     lines = content.splitlines()
     streams = []
@@ -56,18 +51,16 @@ def parse_m3u(content):
 
     for line in lines:
         if line.startswith("#EXTINF"):
-            # 提取节目名称（假设tvg-name="节目名"）
             program_match = re.search(r'tvg-name="([^"]+)"', line)
             if program_match:
                 current_program = program_match.group(1).strip()
-        elif line.startswith("http"):  # 流地址
+        elif line.startswith("http"):
             stream_url = line.strip()
             if current_program:
                 streams.append({"program_name": current_program, "stream_url": stream_url})
 
     return streams
 
-# 处理普通TXT格式的内容
 def parse_txt(content):
     lines = content.splitlines()
     streams = []
@@ -82,23 +75,20 @@ def parse_txt(content):
     return streams
 
 def organize_streams(content):
-    # 检查是否是 M3U 格式并解析
     if content.startswith("#EXTM3U"):
         streams = parse_m3u(content)
     else:
-        # 非 M3U 格式处理
         streams = parse_txt(content)
 
-    # 使用 pandas 整理相同节目的源，并去除重复链接
     df = pd.DataFrame(streams)
-    df = df.drop_duplicates(subset=['program_name', 'stream_url'])  # 删除重复的节目和链接
+    df = df.drop_duplicates(subset=['program_name', 'stream_url'])
     grouped = df.groupby('program_name')['stream_url'].apply(list).reset_index()
 
     return grouped
 
 def save_to_txt(grouped_streams, filename="iptv.txt"):
-    filepath = os.path.join(os.getcwd(), filename)  # 使用绝对路径
-    print(f"保存文件的路径是: {filepath}")  # 输出文件保存路径
+    filepath = os.path.join(os.getcwd(), filename)
+    print(f"保存文件的路径是: {filepath}")
     ipv4_lines = []
     ipv6_lines = []
 
