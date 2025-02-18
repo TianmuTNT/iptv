@@ -2,8 +2,15 @@ import requests
 import pandas as pd
 import re
 import os
+import time
+from concurrent.futures import ThreadPoolExecutor
 
-# 多个网站 URL 列表
+# 配置参数
+MAX_SOURCES_PER_CHANNEL = 10  # 每个频道保留源数
+REQUEST_TIMEOUT = 5  # 源质量检测超时(秒)
+THREAD_POOL = 10  # 并发检测线程数
+
+# 直播源URL列表
 urls = [
     "http://8.138.7.223/live.txt",
     "https://7337.kstore.space/twkj/tvzb.txt",
@@ -16,116 +23,137 @@ urls = [
     "https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/IPV6.m3u",
 ]
 
-# 区分IPv4和IPv6的正则表达式
-ipv4_pattern = re.compile(r'^http://(\d{1,3}\.){3}\d{1,3}')
-ipv6_pattern = re.compile(r'^http://\[([a-fA-F0-9:]+)\]')
+# 频道过滤正则
+channel_pattern = re.compile(
+    r'CCTV|卫视',
+    re.IGNORECASE
+)
 
-# 提示信息和容错处理
+# 协议识别正则
+ipv4_pattern = re.compile(r'^https?://(\d{1,3}\.){3}\d{1,3}')
+ipv6_pattern = re.compile(r'^https?://\[([a-fA-F0-9:]+)\]')
+
 def fetch_streams_from_url(url):
-    print(f"正在爬取网站源: {url}")
+    print(f"📡 正在抓取源: {url}")
     try:
-        response = requests.get(url, timeout=10)  # 增加超时处理
-        response.encoding = 'utf-8'  # 确保使用utf-8编码
-        if response.status_code == 200:
-            content = response.text
-            print(f"成功获取源自: {url}")
-            return content
-        else:
-            print(f"从 {url} 获取数据失败，状态码: {response.status_code}")
-            return None
-    except requests.exceptions.RequestException as e:
-        print(f"请求 {url} 时发生错误: {e}")
+        response = requests.get(url, timeout=10)
+        response.encoding = 'utf-8'
+        return response.text if response.status_code == 200 else None
+    except Exception as e:
+        print(f"❌ 抓取失败 {url}: {str(e)}")
         return None
 
-# 获取所有源，并处理错误
 def fetch_all_streams():
-    all_streams = []
-    for url in urls:
-        content = fetch_streams_from_url(url)
-        if content:
-            all_streams.append(content)
-        else:
-            print(f"跳过来源: {url}")
-    return "\n".join(all_streams)
+    with ThreadPoolExecutor(max_workers=5) as executor:
+        results = executor.map(fetch_streams_from_url, urls)
+    return "\n".join(filter(None, results))
 
-# 处理M3U文件的内容
 def parse_m3u(content):
-    lines = content.splitlines()
     streams = []
-    current_program = None
-
-    for line in lines:
+    current = {}
+    for line in content.splitlines():
         if line.startswith("#EXTINF"):
-            # 提取节目名称（假设tvg-name="节目名"）
-            program_match = re.search(r'tvg-name="([^"]+)"', line)
-            if program_match:
-                current_program = program_match.group(1).strip()
-        elif line.startswith("http"):  # 流地址
-            stream_url = line.strip()
-            if current_program:
-                streams.append({"program_name": current_program, "stream_url": stream_url})
-
+            current["meta"] = line
+            current["name"] = re.search(r'tvg-name="([^"]+)"', line).group(1)
+        elif line.startswith("http"):
+            streams.append({
+                "program_name": current.get("name", "未知频道"),
+                "stream_url": line.strip(),
+                "meta": current.get("meta", "")
+            })
     return streams
 
-# 处理普通TXT格式的内容
 def parse_txt(content):
-    lines = content.splitlines()
     streams = []
-
-    for line in lines:
-        match = re.match(r"(.+?),\s*(http.+)", line)
-        if match:
-            program_name = match.group(1).strip()
-            stream_url = match.group(2).strip()
-            streams.append({"program_name": program_name, "stream_url": stream_url})
-
+    for line in content.splitlines():
+        if match := re.match(r"(.+?),(https?://.+)", line):
+            streams.append({
+                "program_name": match.group(1).strip(),
+                "stream_url": match.group(2).strip(),
+                "meta": ""
+            })
     return streams
+
+def check_source_quality(url):
+    """检测源响应速度和质量"""
+    try:
+        start = time.time()
+        with requests.get(url, timeout=REQUEST_TIMEOUT, stream=True) as r:
+            if r.status_code == 200:
+                speed = time.time() - start
+                return {"url": url, "speed": speed, "valid": True}
+    except:
+        pass
+    return {"url": url, "speed": 999, "valid": False}
+
+def filter_sources(sources):
+    """过滤并排序源"""
+    with ThreadPoolExecutor(THREAD_POOL) as executor:
+        results = list(executor.map(check_source_quality, sources))
+    
+    valid_sources = sorted(
+        [r for r in results if r["valid"]],
+        key=lambda x: x["speed"]
+    )
+    return [s["url"] for s in valid_sources[:MAX_SOURCES_PER_CHANNEL]]
 
 def organize_streams(content):
-    # 检查是否是 M3U 格式并解析
-    if content.startswith("#EXTM3U"):
-        streams = parse_m3u(content)
-    else:
-        # 非 M3U 格式处理
-        streams = parse_txt(content)
-
-    # 使用 pandas 整理相同节目的源，并去除重复链接
+    # 解析内容
+    parser = parse_m3u if content.startswith("#EXTM3U") else parse_txt
+    streams = parser(content)
+    
+    # 转换为DataFrame
     df = pd.DataFrame(streams)
-    df = df.drop_duplicates(subset=['program_name', 'stream_url'])  # 删除重复的节目和链接
-    grouped = df.groupby('program_name')['stream_url'].apply(list).reset_index()
+    
+    # 过滤频道
+    df = df[df["program_name"].str.contains(channel_pattern, na=False)]
+    
+    # 分组处理
+    grouped = df.groupby("program_name", group_keys=False).apply(
+        lambda x: x.drop_duplicates("stream_url").head(100)  # 预取前100个去重
+    )
+    
+    # 分组筛选最佳源
+    filtered = []
+    for name, group in grouped.groupby("program_name"):
+        print(f"🔍 正在检测频道: {name}")
+        best_sources = filter_sources(group["stream_url"].tolist())
+        filtered.extend([
+            {"program_name": name, "stream_url": url, "meta": group.iloc[0]["meta"]}
+            for url in best_sources
+        ])
+    
+    return pd.DataFrame(filtered)
 
-    return grouped
-
-def save_to_txt(grouped_streams, filename="final_streams.txt"):
-    filepath = os.path.join(os.getcwd(), filename)  # 使用绝对路径
-    print(f"保存文件的路径是: {filepath}")  # 输出文件保存路径
-    ipv4_lines = []
-    ipv6_lines = []
-
-    for _, row in grouped_streams.iterrows():
-        program_name = row['program_name']
-        stream_urls = row['stream_url']
-
-        for url in stream_urls:
-            if ipv4_pattern.match(url):
-                ipv4_lines.append(f"{program_name},{url}")
-            elif ipv6_pattern.match(url):
-                ipv6_lines.append(f"{program_name},{url}")
-
-    with open(filepath, 'w', encoding='utf-8') as output_file:
-        output_file.write("# IPv4 Streams\n")
-        output_file.write("\n".join(ipv4_lines))
-        output_file.write("\n\n# IPv6 Streams\n")
-        output_file.write("\n".join(ipv6_lines))
-
-    print(f"所有源已保存到 {filepath}")
+def save_m3u(dataframe, filename="live.m3u"):
+    filepath = os.path.abspath(filename)
+    print(f"💾 正在保存文件到: {filepath}")
+    
+    with open(filepath, "w", encoding="utf-8") as f:
+        f.write("#EXTM3U x-tvg-url=\"\"\n")
+        
+        for _, row in dataframe.iterrows():
+            # 生成分组信息
+            protocol = "IPv6" if ipv6_pattern.match(row["stream_url"]) else "IPv4"
+            
+            # 写入频道信息
+            extinf = row["meta"] or f'#EXTINF:-1 tvg-name="{row["program_name"]}" group-title="{protocol}",{row["program_name"]}'
+            f.write(f"{extinf}\n{row["stream_url"]}\n")
+    
+    print(f"✅ 保存完成！有效频道数：{dataframe['program_name'].nunique()}")
 
 if __name__ == "__main__":
-    print("开始抓取所有源...")
-    all_content = fetch_all_streams()
-    if all_content:
-        print("开始整理源...")
-        organized_streams = organize_streams(all_content)
-        save_to_txt(organized_streams)
+    print("🚀 开始抓取直播源...")
+    content = fetch_all_streams()
+    
+    if content:
+        print("🔄 正在整理频道...")
+        organized = organize_streams(content)
+        
+        if not organized.empty:
+            print("🎉 有效源整理完成")
+            save_m3u(organized)
+        else:
+            print("⚠️ 未找到符合要求的频道")
     else:
-        print("未能抓取到任何源。")
+        print("❌ 未能获取有效内容")
