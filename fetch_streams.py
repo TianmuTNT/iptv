@@ -115,10 +115,15 @@ def organize_streams(content):
     grouped = (
         df
         .groupby("program_name", group_keys=False)
-        .apply(lambda x: x[["program_name", "stream_url", "meta"]]  # 显式保留分组列
-               .drop_duplicates(subset="stream_url")
-               .head(100))
-        .reset_index(drop=True)
+        # 显式选择需要操作的列 (排除分组键)
+        [["stream_url", "meta"]]  
+        .apply(lambda x: (
+            x
+            .drop_duplicates(subset="stream_url")
+            .head(100)
+        ))
+        # 重建完整数据结构
+        .reset_index()  
     )
     
     # 分组筛选最佳源
