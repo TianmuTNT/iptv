@@ -1,46 +1,77 @@
 name: Update
 
+# 触发条件
 on:
-  watch:
-    types: [started]
   schedule:
+    # 每天 UTC 时间 00:00 和 12:00 运行
     - cron: 0,30 * * * *
-  workflow_dispatch:
+  workflow_dispatch: # 允许手动触发
+
+permissions:
+  contents: write  # 确保 GITHUB_TOKEN 具有写入权限
 
 env:
   TZ: Asia/Shanghai
 
 jobs:
-  Update:
+  fetch_streams:
     runs-on: ubuntu-latest
+
     steps:
-    - name: Checkout
+    # 1. 检出项目仓库
+    - name: Checkout repository
       uses: actions/checkout@v4
+
+    # 2. 设置 Python 环境
+    - name: Set up Python
+      uses: actions/setup-python@v5
       with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+        python-version: '3.x'
 
-    - name: GetTime
-      run: echo "DATE=$(date +'%Y-%m-%d %H:%M:%S CST')" >> $GITHUB_ENV
-
-    - name: Update
+    # 3. 安装依赖
+    - name: Install dependencies
       run: |
-        rm -f iptv.m3u && wget https://raw.githubusercontent.com/balala2oo8/iptv/main/o.m3u -O iptv.m3u
+        python -m pip install --upgrade pip
+        pip install pandas requests
+
+    # 4. 运行 Python 脚本
+    - name: Run script
+      run: |
+        python fetch_streams.py
         
+    - name: Update time
+      run: |
+        echo "DATE=$(date +'%Y-%m-%d %H:%M:%S CST')" >> $GITHUB_ENV
         echo "## Update on $DATE
         ### Usage
         **Install a IPTV player first! (important)**
         
         **URL** https://ghfast.top/https://raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.m3u" > README.md
 
-    - name: Clean
-      run: |
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        git checkout --orphan latest_branch
-        git add -A
-        git commit -am "$DATE"
-        git branch -D main
-        git branch -m main
+    # 5. 列出当前目录中的文件，确保 final_streams.txt 存在
+    - name: List files in workspace
+      run: ls -la
 
-    - name: Push
-      run: git push -f origin main
+    # 6. 检查 Git 状态，确保文件已经被添加
+    - name: Git status
+      run: git status
+
+    # 7. 配置 Git 信息
+    - name: Configure Git
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+    # 8. 提交并推送文件到项目仓库
+    - name: Commit and Push changes
+      run: |
+        git add $(pwd)/final_streams.txt  # 使用绝对路径确保路径正确
+        git commit -m "Update final_streams.txt with new streams" --allow-empty
+        git push origin HEAD:main  # 如果使用的是其他分支，请修改
+
+    # 9. 上传输出文件作为 GitHub Action 的工件 (artifact)
+    - name: Upload streams file
+      uses: actions/upload-artifact@v4
+      with:
+        name: final_streams
+        path: final_streams.txt
