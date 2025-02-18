@@ -105,21 +105,20 @@ def organize_streams(content):
     # 转换为DataFrame
     df = pd.DataFrame(streams)
     
+    if df.empty:
+        return pd.DataFrame()
+    
     # 过滤频道
     df = df[df["program_name"].str.contains(channel_pattern, na=False)]
     
-    # 分组处理 (兼容 Pandas 2.0+ 的写法)
+    # 分组处理 (修复丢失 program_name 问题)
     grouped = (
         df
         .groupby("program_name", group_keys=False)
-        # 显式选择需要操作的列，排除分组键
-        [["stream_url", "meta"]]  
-        .apply(lambda x: (
-            x
-            .drop_duplicates(subset="stream_url")
-            .head(100)
-        ))
-        .reset_index()  # 重建完整数据结构
+        .apply(lambda x: x[["program_name", "stream_url", "meta"]]  # 显式保留分组列
+               .drop_duplicates(subset="stream_url")
+               .head(100))
+        .reset_index(drop=True)
     )
     
     # 分组筛选最佳源
@@ -133,7 +132,6 @@ def organize_streams(content):
         ])
     
     return pd.DataFrame(filtered)
-
 
 
 def save_m3u(dataframe, filename="live.m3u"):
