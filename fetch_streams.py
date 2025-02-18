@@ -98,33 +98,46 @@ def filter_sources(sources):
     return [s["url"] for s in valid_sources[:MAX_SOURCES_PER_CHANNEL]]
 
 def organize_streams(content):
-    # 解析内容
-    parser = parse_m3u if content.startswith("#EXTM3U") else parse_txt
-    streams = parser(content)
-    
-    # 转换为DataFrame
-    df = pd.DataFrame(streams)
-    
-    if df.empty:
+    # 解析内容（增强容错）
+    try:
+        parser = parse_m3u if content.startswith("#EXTM3U") else parse_txt
+        streams = parser(content)
+        df = pd.DataFrame(streams)
+    except Exception as e:
+        print(f"⚠️ 数据解析失败: {str(e)}")
         return pd.DataFrame()
-    
-    # 过滤频道
-    df = df[df["program_name"].str.contains(channel_pattern, na=False)]
-    
-    # 分组处理 (修复丢失 program_name 问题)
+
+    # 空数据防御
+    if df.empty or "program_name" not in df.columns:
+        print("⚠️ 输入数据无效或格式错误")
+        return pd.DataFrame()
+
+    # 过滤频道（增强正则容错）
+    try:
+        df = df[df["program_name"].str.contains(channel_pattern, na=False, regex=True)]
+    except Exception as e:
+        print(f"⚠️ 频道过滤失败: {str(e)}")
+        df = df[df["program_name"].notna()]
+
+    # 分组处理（终极正确写法）
     grouped = (
         df
+        # 显式保留分组列
+        [["program_name", "stream_url", "meta"]]  
         .groupby("program_name", group_keys=False)
-        # 显式选择需要操作的列 (排除分组键)
-        [["stream_url", "meta"]]  
         .apply(lambda x: (
             x
             .drop_duplicates(subset="stream_url")
             .head(100)
         ))
         # 重建完整数据结构
-        .reset_index()  
+        .reset_index(drop=True)
     )
+
+    # 结果校验
+    if "program_name" not in grouped.columns:
+        print("⚠️ 分组操作导致列丢失，启用紧急恢复模式")
+        return df.drop_duplicates(["program_name", "stream_url"]).head(100)
     
     # 分组筛选最佳源
     filtered = []
