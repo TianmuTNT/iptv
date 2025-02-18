@@ -1,14 +1,12 @@
 name: Update
 
-# 触发条件
 on:
   schedule:
-    # 每天 UTC 时间 00:00 和 12:00 运行
     - cron: 0,30 * * * *
-  workflow_dispatch: # 允许手动触发
+  workflow_dispatch:
 
 permissions:
-  contents: write  # 确保 GITHUB_TOKEN 具有写入权限
+  contents: write
 
 env:
   TZ: Asia/Shanghai
@@ -18,60 +16,54 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    # 1. 检出项目仓库
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    # 2. 设置 Python 环境
+    - name: Get time
+      run: echo "DATE=$(date +'%Y-%m-%d %H:%M:%S CST')" >> $GITHUB_ENV
+
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
         python-version: '3.x'
 
-    # 3. 安装依赖
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install pandas requests
 
-    # 4. 运行 Python 脚本
     - name: Run script
       run: |
-        python fetch_streams.py
+        python get_iptv.py
         
     - name: Update time
       run: |
-        echo "## Update on $(date +'%Y-%m-%d %H:%M:%S CST')
+        echo "## Update on $DATE
         ### Usage
         **Install a IPTV player first! (important)**
         
-        **URL** https://ghfast.top/https://raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.m3u" > README.md
+        **URL** https://ghfast.top/https://raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.txt" > README.md
 
-    # 5. 列出当前目录中的文件，确保 final_streams.txt 存在
     - name: List files in workspace
       run: ls -la
 
-    # 6. 检查 Git 状态，确保文件已经被添加
     - name: Git status
       run: git status
 
-    # 7. 配置 Git 信息
     - name: Configure Git
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-    # 8. 提交并推送文件到项目仓库
     - name: Commit and Push changes
       run: |
-        git add $(pwd)/final_streams.txt  # 使用绝对路径确保路径正确
+        git add $(pwd)/iptv.txt  # 使用绝对路径确保路径正确
         git add $(pwd)/README.md
-        git commit -m "Update final_streams.txt with new streams" --allow-empty
+        git commit -m "Update on $DATE" --allow-empty
         git push origin HEAD:main  # 如果使用的是其他分支，请修改
 
-    # 9. 上传输出文件作为 GitHub Action 的工件 (artifact)
     - name: Upload streams file
       uses: actions/upload-artifact@v4
       with:
-        name: final_streams
-        path: final_streams.txt
+        name: iptv
+        path: iptv.txt
