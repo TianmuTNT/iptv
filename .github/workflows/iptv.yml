@@ -20,7 +20,7 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Get time
-      run: echo "DATE=$(date +'%Y-%m-%d %H:%M:%S CST')" >> $GITHUB_ENV
+      run: echo "DATE=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_ENV
 
     - name: Set up Python
       uses: actions/setup-python@v5
