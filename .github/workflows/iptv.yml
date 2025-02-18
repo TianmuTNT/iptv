@@ -66,6 +66,7 @@ jobs:
     - name: Commit and Push changes
       run: |
         git add $(pwd)/final_streams.txt  # 使用绝对路径确保路径正确
+        git add $(pwd)/README.md
         git commit -m "Update final_streams.txt with new streams" --allow-empty
         git push origin HEAD:main  # 如果使用的是其他分支，请修改
 
