@@ -108,9 +108,9 @@ def organize_streams(content):
     # 过滤频道
     df = df[df["program_name"].str.contains(channel_pattern, na=False)]
     
-    # 分组处理
-    grouped = df.groupby("program_name", group_keys=False).apply(
-        lambda x: x.drop_duplicates("stream_url").head(100)  # 预取前100个去重
+    # 分组处理 (修复部分)
+    grouped = df.groupby("program_name", group_keys=False, as_index=False).apply(
+        lambda x: x.drop_duplicates(subset="stream_url").head(100)  # 显式指定subset
     )
     
     # 分组筛选最佳源
@@ -124,6 +124,7 @@ def organize_streams(content):
         ])
     
     return pd.DataFrame(filtered)
+
 
 def save_m3u(dataframe, filename="live.m3u"):
     filepath = os.path.abspath(filename)
