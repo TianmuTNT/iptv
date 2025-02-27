@@ -43,7 +43,9 @@ jobs:
         ### 🎈用法如下
         **安装一个IPTV客户端（其它平台上有相关教程）**
         
-        **IPTV源网址** https://ghfast.top/raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.txt" > README.md
+        **IPTV源网址** https://ghfast.top/raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.txt
+        
+        ![Star History Chart](https://api.star-history.com/svg?repos=TianmuTNT/iptv)" > README.md
 
     - name: List files in workspace
       run: ls -la
