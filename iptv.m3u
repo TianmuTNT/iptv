@@ -283,8 +283,6 @@ http://a21709.tv.netsite.cc/proxy/1464748337/1464748337.m3u8
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226559/index.m3u8
 #EXTINF:-1 tvg-name="CCTV-10",CCTV-10
 http://a21709.tv.netsite.cc/proxy/2131132936/2131132936.m3u8
-#EXTINF:-1 tvg-name="CCTV-10 科教",CCTV-10 科教
-http://[2409:8087:1a01:df::4077]:80/PLTV/88888888/224/3221225677/index.m3u8
 #EXTINF:-1 tvg-name="CCTV-11",CCTV-11
 http://a21709.tv.netsite.cc/proxy/421024024/421024024.m3u8
 #EXTINF:-1 tvg-name="CCTV-11 戏曲",CCTV-11 戏曲
@@ -4264,6 +4262,8 @@ http://ali-m-l.cztv.com/channels/lantian/channel07/1080p.m3u8
 #EXTINF:-1 tvg-name="浙江卫视",浙江卫视
 http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
 #EXTINF:-1 tvg-name="浙江卫视",浙江卫视
+http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226339/index.m3u8
+#EXTINF:-1 tvg-name="浙江卫视",浙江卫视
 http://a21709.tv.netsite.cc/proxy/257951448/257951448.m3u8
 #EXTINF:-1 tvg-name="浙江卫视",浙江卫视
 http://a21709.tv.netsite.cc/proxy/2059640241/2059640241.m3u8
@@ -5185,6 +5185,8 @@ https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8
 https://vd3.bdstatic.com/mda-naiekchiugka34rp/hd/cae_h264_delogo/1642588712759747497/mda-naiekchiugka34rp.mp4
 #EXTINF:-1 tvg-name="纪实人文",纪实人文
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225738/index.m3u8
+#EXTINF:-1 tvg-name="纪实科教",纪实科教
+http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225729/index.m3u8
 #EXTINF:-1 tvg-name="纪实科教8K",纪实科教8K
 http://111.31.106.140/downflv.brtvcloud.com/8klive/8kliveok.m3u8
 #EXTINF:-1 tvg-name="纬来电影台",纬来电影台
@@ -5587,8 +5589,6 @@ http://111.29.9.33:6610/000000001000/1000000001000012884/index.m3u8?channel-id=b
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225714/index.m3u8
 #EXTINF:-1 tvg-name="超级综艺",超级综艺
 http://111.29.9.33:6610/000000001000/1000000004000023658/index.m3u8?channel-id=bestzb&Contentid=1000000004000023658&livemode=1&stbId=3
-#EXTINF:-1 tvg-name="超级视剧",超级视剧
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225716/index.m3u8
 #EXTINF:-1 tvg-name="越喧嚣越寂寞",越喧嚣越寂寞
 https://txmov2.a.kwimgs.com/bs3/video-hls/5204472422409005341_hlsb.m3u8
 #EXTINF:-1 tvg-name="足球频道",足球频道
