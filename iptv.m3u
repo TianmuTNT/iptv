@@ -291,8 +291,6 @@ http://a21709.tv.netsite.cc/proxy/1464748337/1464748337.m3u8
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226559/index.m3u8
 #EXTINF:-1 tvg-name="CCTV-10",CCTV-10
 http://a21709.tv.netsite.cc/proxy/2131132936/2131132936.m3u8
-#EXTINF:-1 tvg-name="CCTV-10 科教",CCTV-10 科教
-http://[2409:8087:1a01:df::4077]:80/PLTV/88888888/224/3221225677/index.m3u8
 #EXTINF:-1 tvg-name="CCTV-11",CCTV-11
 http://a21709.tv.netsite.cc/proxy/421024024/421024024.m3u8
 #EXTINF:-1 tvg-name="CCTV-11 戏曲",CCTV-11 戏曲
@@ -339,6 +337,8 @@ http://a21709.tv.netsite.cc/proxy/2118762958/2118762958.m3u8
 http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226019/index.m3u8
 #EXTINF:-1 tvg-name="CCTV-5+",CCTV-5+
 http://a21709.tv.netsite.cc/proxy/485668034/485668034.m3u8
+#EXTINF:-1 tvg-name="CCTV-5+ 体育赛事",CCTV-5+ 体育赛事
+http://[2409:8087:1a01:df::4077]:80/PLTV/88888888/224/3221225507/index.m3u8
 #EXTINF:-1 tvg-name="CCTV-6",CCTV-6
 http://a21709.tv.netsite.cc/proxy/584456678/584456678.m3u8
 #EXTINF:-1 tvg-name="CCTV-6 电影",CCTV-6 电影
@@ -3052,9 +3052,9 @@ http://l.cztvcloud.com/channels/lantian/SXpinghu2/720p.m3u8
 #EXTINF:-1 tvg-name="平湖民生",平湖民生
 http://l.cztvcloud.com/channels/lantian/SXpinghu2/720p.m3u8?zzhed?
 #EXTINF:-1 tvg-name="平湖民生休闲",平湖民生休闲
-http://l.cztvcloud.com/channels/lantian/SXpinghu2/720p.m3u8?zzhed
-#EXTINF:-1 tvg-name="平湖民生休闲",平湖民生休闲
 http://l.cztvcloud.com/channels/lantian/SXpinghu2/720p.m3u8?zzhed#http://l.cztvcloud.com/channels/lantian/SXpinghu2/720p.m3u8
+#EXTINF:-1 tvg-name="平湖民生休闲",平湖民生休闲
+http://l.cztvcloud.com/channels/lantian/SXpinghu2/720p.m3u8?zzhed
 #EXTINF:-1 tvg-name="平遥新闻综合",平遥新闻综合
 https://tntgjhjb.live.sxmty.com/live/hls/3a4585ac11ec4e1bb07b419101b370c3/baf63e2b313440c2a25d7859f9b73b05-1.m3u8?zshanxd
 #EXTINF:-1 tvg-name="幸福密码",幸福密码
