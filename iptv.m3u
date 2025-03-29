@@ -223,6 +223,8 @@ http://a21709.tv.netsite.cc/proxy/1464748337/1464748337.m3u8
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226559/index.m3u8
 #EXTINF:-1 tvg-name="CCTV-10",CCTV-10
 http://a21709.tv.netsite.cc/proxy/2131132936/2131132936.m3u8
+#EXTINF:-1 tvg-name="CCTV-10 科教",CCTV-10 科教
+http://[2409:8087:1a01:df::4077]:80/PLTV/88888888/224/3221225677/index.m3u8
 #EXTINF:-1 tvg-name="CCTV-11",CCTV-11
 http://a21709.tv.netsite.cc/proxy/421024024/421024024.m3u8
 #EXTINF:-1 tvg-name="CCTV-11 戏曲",CCTV-11 戏曲
@@ -253,8 +255,6 @@ http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 http://a21709.tv.netsite.cc/proxy/1865857764/1865857764.m3u8
 #EXTINF:-1 tvg-name="CCTV-2 财经",CCTV-2 财经
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226540/index.m3u8
-#EXTINF:-1 tvg-name="CCTV-3 综艺",CCTV-3 综艺
-http://[2409:8087:1a01:df::4077]:80/PLTV/88888888/224/3221225799/index.m3u8
 #EXTINF:-1 tvg-name="CCTV-4",CCTV-4
 http://a21709.tv.netsite.cc/proxy/1431251767/1431251767.m3u8
 #EXTINF:-1 tvg-name="CCTV-4 中文国际",CCTV-4 中文国际
@@ -5261,8 +5261,6 @@ https://epg.pw/stream/94ed0232b61ce8d89883160a4cdfbfc8f3225cae70ef8e17d93eec249a
 https://epg.pw/stream/866a097a0907c9832440f8df38272dd555abf05200dfbafcc137e214c9b30ca7.m3u8
 #EXTINF:-1 tvg-name="精品体育",精品体育
 http://146.56.165.66:7788/TVOD/2000000003000000021/hnbblive/index.m3u8
-#EXTINF:-1 tvg-name="精品萌宠",精品萌宠
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226505/index.m3u8
 #EXTINF:-1 tvg-name="精彩影视",精彩影视
 http://36.105.100.208:35455/itv/6000000006000320630.m3u8?cdn=wasusyt
 #EXTINF:-1 tvg-name="精灵宝可梦",精灵宝可梦
