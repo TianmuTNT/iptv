@@ -151,8 +151,6 @@ http://a21709.tv.netsite.cc/proxy/512439688/512439688.m3u8
 http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225732/index.m3u8
 #EXTINF:-1 tvg-name="CCTV-15",CCTV-15
 http://a21709.tv.netsite.cc/proxy/323678478/323678478.m3u8
-#EXTINF:-1 tvg-name="CCTV-15 音乐",CCTV-15 音乐
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226476/index.m3u8
 #EXTINF:-1 tvg-name="CCTV-16",CCTV-16
 http://a21709.tv.netsite.cc/proxy/2055404079/2055404079.m3u8
 #EXTINF:-1 tvg-name="CCTV-16 奥林匹克",CCTV-16 奥林匹克
@@ -165,6 +163,8 @@ http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 http://a21709.tv.netsite.cc/proxy/1865857764/1865857764.m3u8
 #EXTINF:-1 tvg-name="CCTV-2 财经",CCTV-2 财经
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226540/index.m3u8
+#EXTINF:-1 tvg-name="CCTV-3 综艺",CCTV-3 综艺
+http://[2409:8087:1a01:df::4077]:80/PLTV/88888888/224/3221225799/index.m3u8
 #EXTINF:-1 tvg-name="CCTV-4",CCTV-4
 http://a21709.tv.netsite.cc/proxy/1431251767/1431251767.m3u8
 #EXTINF:-1 tvg-name="CCTV-4 中文国际",CCTV-4 中文国际
@@ -179,6 +179,8 @@ http://a21709.tv.netsite.cc/proxy/2118762958/2118762958.m3u8
 http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226019/index.m3u8
 #EXTINF:-1 tvg-name="CCTV-5+",CCTV-5+
 http://a21709.tv.netsite.cc/proxy/485668034/485668034.m3u8
+#EXTINF:-1 tvg-name="CCTV-5+ 体育赛事",CCTV-5+ 体育赛事
+http://[2409:8087:1a01:df::4077]:80/PLTV/88888888/224/3221225507/index.m3u8
 #EXTINF:-1 tvg-name="CCTV-6",CCTV-6
 http://a21709.tv.netsite.cc/proxy/584456678/584456678.m3u8
 #EXTINF:-1 tvg-name="CCTV-6 电影",CCTV-6 电影
@@ -4179,6 +4181,8 @@ http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 http://www.xzbn.site:35455/itv/6000000006000320630.m3u8?cdn=wasusyt
 #EXTINF:-1 tvg-name="精灵宝可梦",精灵宝可梦
 http://www.douzhicloud.site:35455/huya/23749096
+#EXTINF:-1 tvg-name="纪实人文",纪实人文
+http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225738/index.m3u8
 #EXTINF:-1 tvg-name="纪实科教",纪实科教
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225729/index.m3u8
 #EXTINF:-1 tvg-name="纪实科教",纪实科教
@@ -4517,8 +4521,6 @@ http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225622/2/index.m3u8
 #EXTINF:-1 tvg-name="超级体育",超级体育
 http://39.134.115.163:8080/PLTV/88888910/224/3221225622/index.m3u8
-#EXTINF:-1 tvg-name="超级电影",超级电影
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225717/index.m3u8
 #EXTINF:-1 tvg-name="超级电影",超级电影
 http://111.29.9.33:6610/000000001000/1000000001000012884/index.m3u8?channel-id=bestzb&Contentid=1000000001000012884&livemode=1&stbId=3
 #EXTINF:-1 tvg-name="超级电影",超级电影
