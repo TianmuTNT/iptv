@@ -1,10 +1,18 @@
-## ✨于 2025-06-08 03:15:25 更新
-## 🎉最新可用IPTV源，觉得好用请点个Star吧！这对我非常重要！
-### 🎈用法如下
-**安装一个IPTV客户端（其它平台上有相关教程）**
+## ✨于 2025-06-08 03:16:17 更新
+**🎉最新可用IPTV源，觉得好用请点个STAR吧！**
 
-**IPTV源网址（TXT）** https://ghfast.top/raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.txt
+https://ghfast.top/raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.txt
 
-**IPTV源网址（M3U）** https://ghfast.top/raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.m3u
+https://ghfast.top/raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.m3u
 
-![Star History Chart](https://api.star-history.com/svg?repos=TianmuTNT/iptv)
+## 💳海外信用卡推荐
+### [点击这里前往](https://bewildcard.com/i/STARRAIL) 可优惠开卡费！
+长期独享卡，**非合租卡**，买的放心，用的安心！
+
+可注册充值多达**40+种**平台，**ChatGPT**、**Claude**等AI服务，**Cloudflare**、**Amazon**等云服务，还有**Netflix**等流媒体服务...
+
+**0月费！按需充值，提现可快速到账！**
+
+免费为会员提供海外手机号、海外网络环境等服务...
+
+ChatGPT充值难？会员可享有一键充值服务！
