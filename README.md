@@ -1,4 +1,4 @@
-## ✨于 2025-06-08 03:16:17 更新
+## ✨于 2025-06-08 03:20:06 更新
 **🎉最新可用IPTV源，觉得好用请点个STAR吧！**
 
 https://ghfast.top/raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.txt
@@ -6,7 +6,7 @@ https://ghfast.top/raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.txt
 https://ghfast.top/raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.m3u
 
 ## 💳海外信用卡推荐
-### [点击这里前往](https://bewildcard.com/i/STARRAIL) 可优惠开卡费！
+### [点击这里前往](https://bewildcard.com/i/STARRAIL) 可优惠一美刀开卡费！
 长期独享卡，**非合租卡**，买的放心，用的安心！
 
 可注册充值多达**40+种**平台，**ChatGPT**、**Claude**等AI服务，**Cloudflare**、**Amazon**等云服务，还有**Netflix**等流媒体服务...
