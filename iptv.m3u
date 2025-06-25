@@ -386,8 +386,6 @@ http://live.cgtn.com/1000/prog_index.m3u8
 #EXTINF:-1 tvg-name="CGTN西班牙语频道",CGTN西班牙语频道
 http://a21709.tv.netsite.cc/proxy/1194246781/1194246781.m3u8
 #EXTINF:-1 tvg-name="CGTN西语",CGTN西语
-https://livees.cgtn.com/1000e/prog_index.m3u8
-#EXTINF:-1 tvg-name="CGTN西语",CGTN西语
 https://0472.org/hls/cgtnx.m3u8
 #EXTINF:-1 tvg-name="CGTN阿拉伯语频道",CGTN阿拉伯语频道
 http://a21709.tv.netsite.cc/proxy/1846633731/1846633731.m3u8
@@ -3001,6 +2999,8 @@ http://tvpull.dxhmt.cn:9081/tv/11681-1.m3u8#@http://live.dxhmt.cn:9081/tv/11681-
 https://hls.cntv.lxdns.com/asp/hls/2000/0303000a/3/default/f0a47e155d32450daa1d36a04fd7d262/2000.m3u8
 #EXTINF:-1 tvg-name="飞碟之谜02",飞碟之谜02
 https://newcntv.qcloudcdn.com/asp/hls/2000/0303000a/3/default/d2454bbb542d4613a9db478dab2addfd/2000.m3u8
+#EXTINF:-1 tvg-name="香港卫视",香港卫视
+http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 #EXTINF:-1 tvg-name="香港卫视",香港卫视
 http://cctvtxyh5c.liveplay.myqcloud.com/cstv/xianggangweishi_2/index.m3u8
 #EXTINF:-1 tvg-name="高邮一套新闻综合频道",高邮一套新闻综合频道
