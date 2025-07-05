@@ -2734,6 +2734,8 @@ https://hls.cntv.lxdns.com/asp/hls/2000/0303000a/3/default/f0a47e155d32450daa1d3
 #EXTINF:-1 tvg-name="飞碟之谜02",飞碟之谜02
 https://newcntv.qcloudcdn.com/asp/hls/2000/0303000a/3/default/d2454bbb542d4613a9db478dab2addfd/2000.m3u8
 #EXTINF:-1 tvg-name="香港卫视",香港卫视
+http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
+#EXTINF:-1 tvg-name="香港卫视",香港卫视
 http://cctvtxyh5c.liveplay.myqcloud.com/cstv/xianggangweishi_2/index.m3u8
 #EXTINF:-1 tvg-name="高邮一套新闻综合频道",高邮一套新闻综合频道
 http://a21709.tv.netsite.cc/proxy/145384285/145384285.m3u8
