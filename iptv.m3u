@@ -423,6 +423,8 @@ https://0472.org/hls/cgtne.m3u8
 http://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd.m3u8
 #EXTINF:-1 tvg-name="CGTN俄语频道",CGTN俄语频道
 http://a21709.tv.netsite.cc/proxy/742102579/742102579.m3u8
+#EXTINF:-1 tvg-name="CGTN外语记录频道",CGTN外语记录频道
+http://a21709.tv.netsite.cc/proxy/634350026/634350026.m3u8
 #EXTINF:-1 tvg-name="CGTN法语",CGTN法语
 https://0472.org/hls/cgtnf.m3u8
 #EXTINF:-1 tvg-name="CGTN法语",CGTN法语
@@ -437,6 +439,8 @@ https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
 http://a21709.tv.netsite.cc/proxy/1194246781/1194246781.m3u8
 #EXTINF:-1 tvg-name="CGTN西语",CGTN西语
 https://0472.org/hls/cgtnx.m3u8
+#EXTINF:-1 tvg-name="CGTN阿拉伯语频道",CGTN阿拉伯语频道
+http://a21709.tv.netsite.cc/proxy/1846633731/1846633731.m3u8
 #EXTINF:-1 tvg-name="CGTN阿语",CGTN阿语
 https://0472.org/hls/cgtna.m3u8
 #EXTINF:-1 tvg-name="CHC动作电影",CHC动作电影
@@ -515,6 +519,8 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 http://36.105.100.208:35455/itv/5000000011000288016.m3u8
 #EXTINF:-1 tvg-name="上海哈哈炫动",上海哈哈炫动
 http://a21709.tv.netsite.cc/proxy/1655047572/1655047572.m3u8
+#EXTINF:-1 tvg-name="上海点掌财经",上海点掌财经
+http://a21709.tv.netsite.cc/proxy/1577752441/1577752441.m3u8
 #EXTINF:-1 tvg-name="上海第一财经",上海第一财经
 http://a21709.tv.netsite.cc/proxy/1946402424/1946402424.m3u8
 #EXTINF:-1 tvg-name="上海第一财经",上海第一财经
@@ -623,6 +629,8 @@ http://stream10.jlntv.cn/jiutaitv/sd/live.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF
 https://mursor.ottiptv.cc/douyu/8778280
 #EXTINF:-1 tvg-name="二胖影视",二胖影视
 https://mursor.ottiptv.cc/douyu/10064260
+#EXTINF:-1 tvg-name="云南卫视",云南卫视
+http://a21709.tv.netsite.cc/proxy/599737477/599737477.m3u8
 #EXTINF:-1 tvg-name="云南卫视",云南卫视
 http://dsj.motem.top:8880/bptv/10000100000000050000000003887453.m3u8
 #EXTINF:-1 tvg-name="云南卫视",云南卫视
@@ -967,6 +975,8 @@ https://mursor.ottiptv.cc/yy/1382735577
 http://tvpull.dxhmt.cn:9081/tv/10422-1.m3u8#
 #EXTINF:-1 tvg-name="吉林乡村",吉林乡村
 https://satellitepull.cnr.cn/live/wxjlxcgb/playlist.m3u8
+#EXTINF:-1 tvg-name="吉林乡村频道",吉林乡村频道
+http://a21709.tv.netsite.cc/proxy/1171899698/1171899698.m3u8
 #EXTINF:-1 tvg-name="吉林公共频道",吉林公共频道
 http://a21709.tv.netsite.cc/proxy/1189725287/1189725287.m3u8
 #EXTINF:-1 tvg-name="吉林卫视",吉林卫视
@@ -983,12 +993,18 @@ http://satellitepull.cnr.cn/live/wxjlws/playlist.m3u8
 http://182.150.23.74:808/hls/35/index.m3u8
 #EXTINF:-1 tvg-name="吉林卫视",吉林卫视
 http://113.25.252.226:9901/tsfile/live/0116_1.m3u8
+#EXTINF:-1 tvg-name="吉林卫视高清",吉林卫视高清
+http://a21709.tv.netsite.cc/proxy/1218816360/1218816360.m3u8
 #EXTINF:-1 tvg-name="吉林延边卫视",吉林延边卫视
 http://a21709.tv.netsite.cc/proxy/454807708/454807708.m3u8
 #EXTINF:-1 tvg-name="吉林延边朝鲜语综合",吉林延边朝鲜语综合
 http://a21709.tv.netsite.cc/proxy/127471106/127471106.m3u8
+#EXTINF:-1 tvg-name="吉林延边汉语综合",吉林延边汉语综合
+http://a21709.tv.netsite.cc/proxy/461796199/461796199.m3u8
 #EXTINF:-1 tvg-name="吉林影视频道",吉林影视频道
 http://a21709.tv.netsite.cc/proxy/1310503767/1310503767.m3u8
+#EXTINF:-1 tvg-name="吉林戏曲频道",吉林戏曲频道
+http://a21709.tv.netsite.cc/proxy/1321895461/1321895461.m3u8
 #EXTINF:-1 tvg-name="吉林新闻综合",吉林新闻综合
 http://a21709.tv.netsite.cc/proxy/1360924247/1360924247.m3u8
 #EXTINF:-1 tvg-name="吉林生活频道",吉林生活频道
@@ -1335,6 +1351,8 @@ http://tvpull.dxhmt.cn:9081/tv/10181-1.m3u8?zhend
 https://mursor.ottiptv.cc/douyu/5907076
 #EXTINF:-1 tvg-name="巴音郭楞州",巴音郭楞州
 http://124.88.144.73:1935/live/dywt/playlist.m3u8
+#EXTINF:-1 tvg-name="常州新闻综合频道",常州新闻综合频道
+http://a21709.tv.netsite.cc/proxy/1762429386/1762429386.m3u8
 #EXTINF:-1 tvg-name="常州生活频道",常州生活频道
 http://a21709.tv.netsite.cc/proxy/692207623/692207623.m3u8
 #EXTINF:-1 tvg-name="常德新闻综合频道",常德新闻综合频道
@@ -1599,6 +1617,8 @@ http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8
 http://live.xysrmt.cn/xwzh/sd/live.m3u8?zjiangsd"
 #EXTINF:-1 tvg-name="新沂生活",新沂生活
 http://live.xysrmt.cn/shpd/sd/live.m3u8?zjiangsd
+#EXTINF:-1 tvg-name="新疆兵团卫视",新疆兵团卫视
+http://a21709.tv.netsite.cc/proxy/1502802665/1502802665.m3u8
 #EXTINF:-1 tvg-name="新疆卫视",新疆卫视
 http://a21709.tv.netsite.cc/proxy/86832656/86832656.m3u8
 #EXTINF:-1 tvg-name="新疆卫视",新疆卫视
@@ -1659,6 +1679,8 @@ http://stream.thmz.com/wxtv5/sd/live.m3u8?zjiangsd#http://stream.thmz.com/wxtv5/
 http://a21709.tv.netsite.cc/proxy/326472624/326472624.m3u8
 #EXTINF:-1 tvg-name="无锡都市资讯",无锡都市资讯
 http://stream.thmz.com/wxtv3/sd/live.m3u8?zjiangsd#http://stream.thmz.com/wxtv3/sd/live.m3u8?_upt=978cd8731706199708#http://stream.thmz.com/wxtv3/playlist.m3u8#http://stream.thmz.com/wxtv3/playlist.m3u8?_upt=1758133b1706166861
+#EXTINF:-1 tvg-name="无锡都市资讯频道",无锡都市资讯频道
+http://a21709.tv.netsite.cc/proxy/1260824748/1260824748.m3u8
 #EXTINF:-1 tvg-name="时夜说故事",时夜说故事
 https://mursor.ottiptv.cc/huya/29918288
 #EXTINF:-1 tvg-name="旺安影视",旺安影视
@@ -1783,6 +1805,8 @@ https://play.kankanlive.com/live/1652755738635915.m3u8
 http://a21709.tv.netsite.cc/proxy/1886377426/1886377426.m3u8
 #EXTINF:-1 tvg-name="汉语信息服务频道",汉语信息服务频道
 http://a21709.tv.netsite.cc/proxy/1505828605/1505828605.m3u8
+#EXTINF:-1 tvg-name="汉语经济生活频道",汉语经济生活频道
+http://a21709.tv.netsite.cc/proxy/2004261116/2004261116.m3u8
 #EXTINF:-1 tvg-name="汉语综艺频道",汉语综艺频道
 http://a21709.tv.netsite.cc/proxy/1984370081/1984370081.m3u8
 #EXTINF:-1 tvg-name="汕头文旅",汕头文旅
@@ -1812,6 +1836,8 @@ https://migu.188766.xyz/?migutoken=bfd96895aa8e3e9aa47561510518c058&id=%E6%B1%9F
 #EXTINF:-1 tvg-name="江西卫视",江西卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226344/index.m3u8
 #EXTINF:-1 tvg-name="江西卫视",江西卫视
+http://a21709.tv.netsite.cc/proxy/203181175/203181175.m3u8
+#EXTINF:-1 tvg-name="江西卫视",江西卫视
 http://[2409:8087:1a01:df::4027]:80/TVOD/88888888/224/3221225935/main.m3u8
 #EXTINF:-1 tvg-name="江西卫视",江西卫视
 http://dsj.motem.top:8880/bptv/10000100000000050000000004796511.m3u8
@@ -1835,6 +1861,8 @@ http://tvpull.dxhmt.cn:9081/tv/10882-1.m3u8
 http://iptv.jxpan.vip:18888/aio/huya/11601968
 #EXTINF:-1 tvg-name="沐川综合",沐川综合
 http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8?zsicd
+#EXTINF:-1 tvg-name="沛县新闻综合",沛县新闻综合
+http://a21709.tv.netsite.cc/proxy/2058383266/2058383266.m3u8
 #EXTINF:-1 tvg-name="沭阳综合频道",沭阳综合频道
 http://a21709.tv.netsite.cc/proxy/1424907816/1424907816.m3u8
 #EXTINF:-1 tvg-name="河北三佳购物",河北三佳购物
@@ -1847,6 +1875,8 @@ https://ls.qingting.fm/live/1650/64k.m3u8
 http://ls.qingting.fm/live/1650.m3u8
 #EXTINF:-1 tvg-name="河北农民",河北农民
 https://jwcdnqx.hebyun.com.cn/live/clzhpd/1500k/tzwj_video.m3u8?zhebd
+#EXTINF:-1 tvg-name="河北农民频道",河北农民频道
+http://a21709.tv.netsite.cc/proxy/1382120425/1382120425.m3u8
 #EXTINF:-1 tvg-name="河北卫视",河北卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226406/index.m3u8
 #EXTINF:-1 tvg-name="河北卫视",河北卫视
@@ -1863,6 +1893,8 @@ http://36.32.174.67:60080/newlive/live/hls/36/live.m3u8
 http://drive.mxmy.net:8888/udp/239.3.1.148:8072
 #EXTINF:-1 tvg-name="河北卫视",河北卫视
 http://116.128.242.83:9901/tsfile/live/0142_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="河北少儿科教",河北少儿科教
+http://a21709.tv.netsite.cc/proxy/177438581/177438581.m3u8
 #EXTINF:-1 tvg-name="河北影视剧",河北影视剧
 http://a21709.tv.netsite.cc/proxy/105462334/105462334.m3u8
 #EXTINF:-1 tvg-name="河北经济生活",河北经济生活
@@ -1882,6 +1914,8 @@ http://a21709.tv.netsite.cc/proxy/1779518772/1779518772.m3u8
 #EXTINF:-1 tvg-name="河南卫视",河南卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226480/index.m3u8
 #EXTINF:-1 tvg-name="河南卫视",河南卫视
+http://a21709.tv.netsite.cc/proxy/251465659/251465659.m3u8
+#EXTINF:-1 tvg-name="河南卫视",河南卫视
 http://39.164.160.249:9901/tsfile/live/0139_1.m3u8
 #EXTINF:-1 tvg-name="河南卫视",河南卫视
 http://dsj.motem.top:8880/bptv/10000100000000050000000003887270.m3u8
@@ -1893,6 +1927,8 @@ http://tvpull.dxhmt.cn:9081/tv/11425-1.m3u8
 http://58.19.43.46:9901/tsfile/live/1006_1.m3u8
 #EXTINF:-1 tvg-name="河南戏曲",河南戏曲
 http://www.cdnstv.com:6398/hls/1119/index.m3u8
+#EXTINF:-1 tvg-name="河南文物宝库频道",河南文物宝库频道
+http://a21709.tv.netsite.cc/proxy/908742171/908742171.m3u8
 #EXTINF:-1 tvg-name="河南新闻",河南新闻
 http://www.cdnstv.com:6398/hls/1114/index.m3u8
 #EXTINF:-1 tvg-name="河南新闻频道",河南新闻频道
@@ -1935,10 +1971,14 @@ http://iptv.jxpan.vip:18888/aio/huya/23863804
 https://cc06.tv12.xyz/42.m3u8
 #EXTINF:-1 tvg-name="泗洪新闻综合",泗洪新闻综合
 http://live1.habctv.com/ggpdsl/sd/live.m3u8?zjiangsd#http://live1.habctv.com/ggpdsl/sd/live.m3u8
+#EXTINF:-1 tvg-name="泗洪新闻综合频道",泗洪新闻综合频道
+http://a21709.tv.netsite.cc/proxy/39753847/39753847.m3u8
 #EXTINF:-1 tvg-name="泗阳综合",泗阳综合
 http://3739115337.cloudvdn.com/a.m3u8?domain=siyang-tv-hls.cm.jstv.com&player=nwEAAKHdjSKP_58X&secondToken=secondToken%3A5FUijZmDyNMxtCDdne0YzSAwjuw&streamid=siyang-tv%3Asiyang-tv%2Fsiyangzh&v3=1
 #EXTINF:-1 tvg-name="泗阳综合频道",泗阳综合频道
 http://a21709.tv.netsite.cc/proxy/642523244/642523244.m3u8
+#EXTINF:-1 tvg-name="泗阳资讯频道",泗阳资讯频道
+http://a21709.tv.netsite.cc/proxy/1545407523/1545407523.m3u8
 #EXTINF:-1 tvg-name="泰州一套新闻综合",泰州一套新闻综合
 http://stream1.mytaizhou.net/xwzh/playlist.m3u8?_upt=2f3c2e461725409415
 #EXTINF:-1 tvg-name="泰州三套影视娱乐",泰州三套影视娱乐
@@ -1980,6 +2020,8 @@ http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 #EXTINF:-1 tvg-name="浙江卫视",浙江卫视
 http://a21709.tv.netsite.cc/proxy/257951448/257951448.m3u8
 #EXTINF:-1 tvg-name="浙江卫视",浙江卫视
+http://a21709.tv.netsite.cc/proxy/2059640241/2059640241.m3u8
+#EXTINF:-1 tvg-name="浙江卫视",浙江卫视
 http://58.57.40.22:9901/tsfile/live/1029_1.m3u8
 #EXTINF:-1 tvg-name="浙江卫视",浙江卫视
 https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
@@ -2013,6 +2055,8 @@ http://ali-vl.cztv.com/channels/lantian/channel008/360p.m3u8
 http://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8?fbl=
 #EXTINF:-1 tvg-name="浙江少儿",浙江少儿
 https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8?
+#EXTINF:-1 tvg-name="浙江少儿频道",浙江少儿频道
+http://a21709.tv.netsite.cc/proxy/1658458613/1658458613.m3u8
 #EXTINF:-1 tvg-name="浙江影视",浙江影视
 https://ali-m-l.cztv.com/channels/lantian/channel005/1080p.m3u8
 #EXTINF:-1 tvg-name="浙江教科",浙江教科
@@ -2094,6 +2138,8 @@ http://ali-m-l.cztv.com/channels/lantian/channel002/720p.m3u8
 #EXTINF:-1 tvg-name="浙江钱江都市",浙江钱江都市
 http://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
 #EXTINF:-1 tvg-name="浙江钱江都市",浙江钱江都市
+http://a21709.tv.netsite.cc/proxy/2044904392/2044904392.m3u8
+#EXTINF:-1 tvg-name="浙江钱江都市",浙江钱江都市
 https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
 #EXTINF:-1 tvg-name="浙江钱江都市",浙江钱江都市
 http://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8?zzhed
@@ -2125,6 +2171,8 @@ http://p2hs.vzan.com/slowlive/317913155078575177/live.m3u8
 http://38.64.72.148:80/hls/modn/list/4009/playlist.m3u8
 #EXTINF:-1 tvg-name="海绵宝宝",海绵宝宝
 https://live.metshop.top/douyu/3949681
+#EXTINF:-1 tvg-name="涟水电视台综合频道",涟水电视台综合频道
+http://a21709.tv.netsite.cc/proxy/1977735434/1977735434.m3u8
 #EXTINF:-1 tvg-name="涡阳新闻综合",涡阳新闻综合
 http://220.180.124.18:888/live/ch0.m3u8
 #EXTINF:-1 tvg-name="淅川电视",淅川电视
@@ -2178,6 +2226,8 @@ https://mursor.ottiptv.cc/huya/23903142
 #EXTINF:-1 tvg-name="湖北卫视",湖北卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226477/index.m3u8
 #EXTINF:-1 tvg-name="湖北卫视",湖北卫视
+http://a21709.tv.netsite.cc/proxy/209398845/209398845.m3u8
+#EXTINF:-1 tvg-name="湖北卫视",湖北卫视
 http://iptv.huuc.edu.cn/hls/hbhd.m3u8
 #EXTINF:-1 tvg-name="湖北卫视",湖北卫视
 http://dsj.motem.top:8880/bptv/10000100000000050000000003873465.m3u8
@@ -2204,7 +2254,11 @@ http://58.17.48.228:808/hls/31/index.m3u8
 #EXTINF:-1 tvg-name="湖南娱乐",湖南娱乐
 http://a21709.tv.netsite.cc/proxy/884645401/884645401.m3u8
 #EXTINF:-1 tvg-name="湖南爱晚",湖南爱晚
+http://a21709.tv.netsite.cc/proxy/1916495164/1916495164.m3u8
+#EXTINF:-1 tvg-name="湖南爱晚",湖南爱晚
 http://p2.vzan.com/527645544/149039617847513156/live.m3u8
+#EXTINF:-1 tvg-name="湖南经视",湖南经视
+http://a21709.tv.netsite.cc/proxy/1075467511/1075467511.m3u8
 #EXTINF:-1 tvg-name="湖南都市",湖南都市
 http://a21709.tv.netsite.cc/proxy/1116439121/1116439121.m3u8
 #EXTINF:-1 tvg-name="湖州公共民生",湖州公共民生
@@ -2330,6 +2384,8 @@ http://tv.drs.ganzitv.com:8100/channellive/gztv.flv
 #EXTINF:-1 tvg-name="甘肃公共应急",甘肃公共应急
 http://a21709.tv.netsite.cc/proxy/1726841360/1726841360.m3u8
 #EXTINF:-1 tvg-name="甘肃卫视",甘肃卫视
+http://a21709.tv.netsite.cc/proxy/910220240/910220240.m3u8
+#EXTINF:-1 tvg-name="甘肃卫视",甘肃卫视
 http://a21709.tv.netsite.cc/proxy/1209404373/1209404373.m3u8
 #EXTINF:-1 tvg-name="甘肃卫视",甘肃卫视
 http://39.150.96.141:65535/tsfile/live/0141_1.m3u8
@@ -2343,6 +2399,8 @@ http://j.x.bkpcp.top/jx/GSWS
 http://39.150.96.141:65535/tsfile/live/0141_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="甘肃少儿频道",甘肃少儿频道
 http://a21709.tv.netsite.cc/proxy/1645236406/1645236406.m3u8
+#EXTINF:-1 tvg-name="甘肃文化影视",甘肃文化影视
+http://a21709.tv.netsite.cc/proxy/1573084994/1573084994.m3u8
 #EXTINF:-1 tvg-name="甘肃经济",甘肃经济
 https://satellitepull.cnr.cn/live/wxgshhzs/playlist.m3u8
 #EXTINF:-1 tvg-name="甘肃经济频道",甘肃经济频道
@@ -2383,6 +2441,8 @@ https://mursor.ottiptv.cc/douyu/9639225
 https://mursor.ottiptv.cc/douyu/8706652
 #EXTINF:-1 tvg-name="电影黑豹",电影黑豹
 https://mursor.ottiptv.cc/yy/1382736816
+#EXTINF:-1 tvg-name="电视剧",电视剧
+http://a21709.tv.netsite.cc/proxy/649200103/649200103.m3u8
 #EXTINF:-1 tvg-name="番禺综合",番禺综合
 http://video.epaper.pybtv.cn:8080/live/rtmp_live_demo.flv
 #EXTINF:-1 tvg-name="登封综合",登封综合
@@ -2453,8 +2513,16 @@ http://live.zohi.tv:80/video/s10001-fztv-3/index.m3u8
 http://a21709.tv.netsite.cc/proxy/1989099435/1989099435.m3u8
 #EXTINF:-1 tvg-name="福建体育频道",福建体育频道
 http://a21709.tv.netsite.cc/proxy/1771344389/1771344389.m3u8
+#EXTINF:-1 tvg-name="福建公共频道",福建公共频道
+http://a21709.tv.netsite.cc/proxy/639164858/639164858.m3u8
+#EXTINF:-1 tvg-name="福建少儿频道",福建少儿频道
+http://a21709.tv.netsite.cc/proxy/253585251/253585251.m3u8
 #EXTINF:-1 tvg-name="福建新闻",福建新闻
 http://satellitepull.cnr.cn/live/wx32fjxwgb/playlist.m3u8
+#EXTINF:-1 tvg-name="福建新闻频道",福建新闻频道
+http://a21709.tv.netsite.cc/proxy/199601741/199601741.m3u8
+#EXTINF:-1 tvg-name="福建旅游频道",福建旅游频道
+http://a21709.tv.netsite.cc/proxy/1739179131/1739179131.m3u8
 #EXTINF:-1 tvg-name="福建海峡卫视",福建海峡卫视
 http://a21709.tv.netsite.cc/proxy/1400186150/1400186150.m3u8
 #EXTINF:-1 tvg-name="福建电视剧",福建电视剧
@@ -2523,6 +2591,8 @@ https://mursor.ottiptv.cc/yy/1354926671
 https://mursor.ottiptv.cc/douyu/9401305
 #EXTINF:-1 tvg-name="绝版电影港片女鬼",绝版电影港片女鬼
 https://mursor.ottiptv.cc/yy/1461579859
+#EXTINF:-1 tvg-name="维吾尔语影视频道",维吾尔语影视频道
+http://a21709.tv.netsite.cc/proxy/1914463925/1914463925.m3u8
 #EXTINF:-1 tvg-name="维吾尔语经济生活频道",维吾尔语经济生活频道
 http://a21709.tv.netsite.cc/proxy/1099281883/1099281883.m3u8
 #EXTINF:-1 tvg-name="维立方电影",维立方电影
@@ -2702,6 +2772,8 @@ http://a21709.tv.netsite.cc/proxy/730375068/730375068.m3u8
 #EXTINF:-1 tvg-name="贵州卫视",贵州卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226474/index.m3u8
 #EXTINF:-1 tvg-name="贵州卫视",贵州卫视
+http://a21709.tv.netsite.cc/proxy/189740973/189740973.m3u8
+#EXTINF:-1 tvg-name="贵州卫视",贵州卫视
 http://a21709.tv.netsite.cc/proxy/1494390345/1494390345.m3u8
 #EXTINF:-1 tvg-name="贵州卫视",贵州卫视
 http://[2409:8087:1a01:df::4030]:80/TVOD/88888888/224/3221225974/main.m3u8
@@ -2723,6 +2795,8 @@ http://a21709.tv.netsite.cc/proxy/277498502/277498502.m3u8
 http://a21709.tv.netsite.cc/proxy/2087588014/2087588014.m3u8
 #EXTINF:-1 tvg-name="贵州科教健康",贵州科教健康
 http://a21709.tv.netsite.cc/proxy/1162947109/1162947109.m3u8
+#EXTINF:-1 tvg-name="贵州移动电视频道",贵州移动电视频道
+http://a21709.tv.netsite.cc/proxy/1401142653/1401142653.m3u8
 #EXTINF:-1 tvg-name="贺岁电影",贺岁电影
 http://iptv.jxpan.vip:18888/aio/huya/11601986
 #EXTINF:-1 tvg-name="赣州公共",赣州公共
@@ -2797,6 +2871,8 @@ https://ls.qingting.fm/live/1099/64k.m3u8
 https://mursor.ottiptv.cc/yy/1354930912
 #EXTINF:-1 tvg-name="连云港公共频道",连云港公共频道
 http://a21709.tv.netsite.cc/proxy/1479045862/1479045862.m3u8
+#EXTINF:-1 tvg-name="连云港新闻综合频道",连云港新闻综合频道
+http://a21709.tv.netsite.cc/proxy/1249456251/1249456251.m3u8
 #EXTINF:-1 tvg-name="逗米说电影",逗米说电影
 https://mursor.ottiptv.cc/douyu/421222
 #EXTINF:-1 tvg-name="通化县",通化县
@@ -2855,6 +2931,8 @@ http://iptv.huuc.edu.cn/hls/cqhd.m3u8
 https://www.yangshipin.cn/tv/home?pid=600002531
 #EXTINF:-1 tvg-name="重庆卫视",重庆卫视
 http://nas.hssvm.com:8888/udp/225.1.1.155:5002
+#EXTINF:-1 tvg-name="重庆新闻",重庆新闻
+http://a21709.tv.netsite.cc/proxy/1555453135/1555453135.m3u8
 #EXTINF:-1 tvg-name="重庆汽摩",重庆汽摩
 http://120.76.248.139/live/bfgd/4200000168.m3u8
 #EXTINF:-1 tvg-name="重庆汽摩",重庆汽摩
@@ -2891,6 +2969,8 @@ http://58.57.40.22:9901/tsfile/live/1059_1.m3u8
 http://218.89.240.144:59901/tsfile/live/1002_1.m3u8
 #EXTINF:-1 tvg-name="金鹰卡通",金鹰卡通
 http://dsj.motem.top:8880/bptv/10000100000000050000000004796942.m3u8
+#EXTINF:-1 tvg-name="金鹰纪实",金鹰纪实
+http://a21709.tv.netsite.cc/proxy/46690299/46690299.m3u8
 #EXTINF:-1 tvg-name="金鹰纪实",金鹰纪实
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226572/1.m3u8
 #EXTINF:-1 tvg-name="鉴证实录",鉴证实录
@@ -3004,6 +3084,8 @@ http://111.14.181.15:9901/tsfile/live/1009_1.m3u8
 #EXTINF:-1 tvg-name="青州综合",青州综合
 http://sdqz.chinashadt.com:2036/live/stream:1.stream/playlist.m3u8?shandd#http://sdqz.chinashadt.com:2036/live/stream:1.stream/playlist.m3u8#rtmp://sdqz.chinashadt.com:2036/live/stream:1.stream
 #EXTINF:-1 tvg-name="青海卫视",青海卫视
+http://a21709.tv.netsite.cc/proxy/1164716104/1164716104.m3u8
+#EXTINF:-1 tvg-name="青海卫视",青海卫视
 http://a21709.tv.netsite.cc/proxy/1152127449/1152127449.m3u8
 #EXTINF:-1 tvg-name="青海卫视",青海卫视
 http://58.57.40.22:9901/tsfile/live/1057_1.m3u8
@@ -3115,6 +3197,10 @@ http://36.105.100.208:35455/itv/1000000004000019624.m3u8
 http://36.105.100.208:35455/itv/1000000004000019624.m3u8?cdn=ystenlive
 #EXTINF:-1 tvg-name="黑龙江卫视",黑龙江卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226327/index.m3u8
+#EXTINF:-1 tvg-name="黑龙江卫视",黑龙江卫视
+http://a21709.tv.netsite.cc/proxy/982668357/982668357.m3u8
+#EXTINF:-1 tvg-name="黑龙江卫视",黑龙江卫视
+http://a21709.tv.netsite.cc/proxy/1993445467/1993445467.m3u8
 #EXTINF:-1 tvg-name="黑龙江卫视",黑龙江卫视
 http://dsj.motem.top:8880/bptv/10000100000000050000000003873470.m3u8
 #EXTINF:-1 tvg-name="黑龙江卫视",黑龙江卫视
