@@ -1457,8 +1457,6 @@ http://www.cdnstv.com:6398/hls/1113/index.m3u8
 http://live.dxhmt.cn:9081/tv/11726-1.m3u8
 #EXTINF:-1 tvg-name="泌阳新闻综合",泌阳新闻综合
 http://tvpull.dxhmt.cn:9081/tv/11726-1.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]
-#EXTINF:-1 tvg-name="法治天地",法治天地
-http://[2409:8087:1e01:20::3]:80/PLTV/11/224/3221225994/index.m3u8
 #EXTINF:-1 tvg-name="泗洪新闻综合",泗洪新闻综合
 http://live1.habctv.com/ggpdsl/sd/live.m3u8?zjiangsd#http://live1.habctv.com/ggpdsl/sd/live.m3u8
 #EXTINF:-1 tvg-name="泗阳综合",泗阳综合
