@@ -274,3 +274,4 @@ CHC电影,http://120.198.101.106:9901/tsfile/live/1053_1.m3u8?key=txiptv
 黑龙江卫视,http://124.116.183.146:9901/tsfile/live/0143_1.m3u8
 
 # IPv6 Streams
+法治天地,http://[2409:8087:1e01:20::3]:80/PLTV/11/224/3221225994/index.m3u8
