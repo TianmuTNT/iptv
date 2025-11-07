@@ -1,4 +1,4 @@
-## ✨于 2025-11-08 05:37:35 更新
+## ✨于 2025-11-08 06:19:06 更新
 **🎉自用IPTV源**
 
 https://ghfast.top/raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.txt
