@@ -1,6 +1,10 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="2026-01-13 00:31:55",2026-01-13 00:31:55
+https://vd3.bdstatic.com/mda-rkaittm5s06vzzyq/sc/cae_h264/1762869883709304452/mda-rkaittm5s06vzzyq.mp4
 #EXTINF:-1 tvg-name="CCTV-8K 超高清",CCTV-8K 超高清
 https://tv.cry33.com/ys4k.php?id=8k
+#EXTINF:-1 tvg-name="www.izbds.com",www.izbds.com
+https://vd3.bdstatic.com/mda-rkaittm5s06vzzyq/sc/cae_h264/1762869883709304452/mda-rkaittm5s06vzzyq.mp4
 #EXTINF:-1 tvg-name="上虞文化影院",上虞文化影院
 http://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8?zzhed
 #EXTINF:-1 tvg-name="上虞新商都",上虞新商都
