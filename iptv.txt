@@ -1,7 +1,7 @@
 # IPv4 Streams
 AMC电影,http://61.221.215.25:8800/hls/43/index.m3u8
-CCTV1,http://23.237.228.134/live5/CCTV1.m3u8
 CCTV1,http://58.57.40.22:9901/tsfile/live/0001_1.m3u8
+CCTV1,http://23.237.228.134/live5/CCTV1.m3u8
 CCTV1,http://120.238.94.10:9901/tsfile/live/1018_1.m3u8
 CCTV1,http://112.46.85.60:8009/hls/501/index.m3u8
 CCTV1,http://183.11.239.36:808/hls/19/index.m3u8
@@ -24,13 +24,13 @@ CCTV13,http://58.57.40.22:9901/tsfile/live/1013_1.m3u8
 CCTV13,http://183.11.239.36:808/hls/31/index.m3u8
 CCTV13,http://120.211.62.180:8000/hls/13/index.m3u8
 CCTV14,http://58.57.40.22:9901/tsfile/live/1014_1.m3u8
-CCTV14,http://23.237.228.134/live3/CCTV14.m3u8
 CCTV14,http://69.30.246.194/live/cctv14.m3u8
+CCTV14,http://23.237.228.134/live3/CCTV14.m3u8
 CCTV14,http://27.41.245.32:801/hls/14/index.m3u8
 CCTV14,http://120.211.62.180:8000/hls/14/index.m3u8
 CCTV15,http://58.57.40.22:9901/tsfile/live/1015_1.m3u8
-CCTV15,http://69.30.246.194/live/cctv15.m3u8
 CCTV15,http://23.237.228.134/live3/CCTV15.m3u8
+CCTV15,http://69.30.246.194/live/cctv15.m3u8
 CCTV15,http://183.11.239.36:808/hls/102/index.m3u8
 CCTV15,http://120.211.62.180:8000/hls/15/index.m3u8
 CCTV15,http://38.75.136.137:98/gslb/dsdqca/cctv15hd.m3u8?auth=test20251009
@@ -42,8 +42,8 @@ CCTV17,http://23.237.228.134/live3/CCTV17.m3u8
 CCTV17,http://120.238.94.10:9901/tsfile/live/1048_1.m3u8
 CCTV17,http://120.211.62.180:8000/hls/17/index.m3u8
 CCTV17,http://183.11.239.36:808/hls/35/index.m3u8
-CCTV2,http://23.237.228.134/live5/CCTV2.m3u8
 CCTV2,http://58.57.40.22:9901/tsfile/live/1001_1.m3u8
+CCTV2,http://23.237.228.134/live5/CCTV2.m3u8
 CCTV2,http://27.41.245.32:801/hls/2/index.m3u8
 CCTV2,http://112.123.206.32:808/hls/2/index.m3u8
 CCTV2,http://120.238.94.10:9901/tsfile/live/1019_1.m3u8
@@ -81,8 +81,8 @@ CCTV8,http://58.57.40.22:9901/tsfile/live/1008_1.m3u8
 CCTV8,http://27.41.245.32:801/hls/8/index.m3u8
 CCTV8,http://120.238.94.10:9901/tsfile/live/1026_1.m3u8
 CCTV8,http://183.11.239.36:808/hls/96/index.m3u8
-CCTV9,http://58.57.40.22:9901/tsfile/live/1009_1.m3u8
 CCTV9,http://23.237.228.134/live5/CCTV9.m3u8
+CCTV9,http://58.57.40.22:9901/tsfile/live/1009_1.m3u8
 CCTV9,http://27.41.245.32:801/hls/9/index.m3u8
 CCTV9,http://120.238.94.10:9901/tsfile/live/1027_1.m3u8
 CCTV9,http://112.46.85.60:8009/hls/509/index.m3u8
@@ -97,9 +97,7 @@ CCTV风云足球,http://27.41.245.32:801/hls/906/index.m3u8
 CCTV风云足球,http://38.75.136.137:98/gslb/dsdqpub/fyzq.m3u8?auth=testpub
 CCTV风云足球,http://111.61.236.247:9081/hls/58/index.m3u8
 CHC动作电影,http://120.238.94.82:9901/tsfile/live/1052_1.m3u8
-CHC家庭影院,http://43.251.226.89:8080/play/225.m3u8
 CHC家庭影院,http://38.75.136.137:98/gslb/dsdqpub/chcjt.m3u8?auth=testpub
-CHC家庭影院,http://61.184.46.85:9901/tsfile/live/1023_1.m3u8?key=txiptv&playlive=1&authid=0
 CHC电影,http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=0&authid=0
 IPTV经典电影,http://43.138.0.72:35455/yy/1382754187
 JJ斗地主,http://43.251.226.89:8080/play/1995.m3u8
@@ -158,13 +156,11 @@ JJ斗地主,http://43.251.226.89:8080/play/1475.m3u8
 北京卫视,http://120.211.62.180:8000/hls/35/index.m3u8
 厦门卫视,http://183.11.239.36:808/hls/17/index.m3u8
 厦门卫视,http://38.75.136.137:98/gslb/dsdqpub/xmws.m3u8?auth=testpub
-句容党建,http://43.251.226.89:8080/play/533.m3u8
-句容生活,http://43.251.226.89:8080/play/532.m3u8
 合肥新闻,http://112.27.235.94:8000/hls/18/index.m3u8
 吉林卫视,http://58.57.40.22:9901/tsfile/live/1050_1.m3u8
-吉林卫视,http://23.237.228.134/live8/jilin.m3u8
 吉林卫视,http://111.61.236.247:9081/hls/45/index.m3u8
 吉林卫视,http://183.11.239.36:808/hls/10/index.m3u8
+吉林卫视,http://120.76.248.139/live/bfgd/4200000097.m3u8
 哈哈炫动,http://120.238.94.10:9901/tsfile/live/1037_1.m3u8
 哈尔滨影视,http://111.43.126.240:9003/hls/5/index.m3u8
 哈尔滨生活,http://111.43.126.240:9003/hls/3/index.m3u8
@@ -183,7 +179,6 @@ JJ斗地主,http://43.251.226.89:8080/play/1475.m3u8
 天津卫视,http://112.46.85.60:8009/hls/44/index.m3u8
 天津卫视,http://38.75.136.137:98/gslb/dsdqca/tjwshd.m3u8?auth=test20251009
 天津卫视,http://111.221.137.234:44330/tsfile/live/0132_1.m3u8?key=txiptv&playlive=0&authid=0
-天津卫视,http://153.0.171.163:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0
 奎屯汉语,http://218.84.12.186:8001/hls/main/playlist.m3u8?zxinjd
 宁夏卫视,http://58.57.40.22:9901/tsfile/live/1054_1.m3u8
 宁夏卫视,http://120.238.94.10:9901/tsfile/live/1076_1.m3u8
@@ -196,9 +191,9 @@ JJ斗地主,http://43.251.226.89:8080/play/1475.m3u8
 安徽卫视,http://183.11.239.36:808/hls/40/index.m3u8
 安徽影视,http://112.27.235.94:8000/hls/24/index.m3u8
 安徽综艺体育,http://112.27.235.94:8000/hls/25/index.m3u8
-山东体育,http://58.57.40.22:9901/tsfile/live/1020_1.m3u8
 山东体育,http://61.156.228.12:8154/tsfile/live/1006_1.m3u8
 山东体育,http://123.130.84.106:8154/tsfile/live/1006_1.m3u8
+山东体育,http://58.57.40.22:9901/tsfile/live/1020_1.m3u8
 山东农科,http://58.57.40.22:9901/tsfile/live/1022_1.m3u8
 山东卫视,http://120.211.62.180:8000/hls/38/index.m3u8
 山东卫视,http://182.150.23.74:808/hls/23/index.m3u8
@@ -220,7 +215,6 @@ JJ斗地主,http://43.251.226.89:8080/play/1475.m3u8
 广东体育,http://183.11.239.36:808/hls/2/index.m3u8
 广东体育,http://218.13.170.98:9901/tsfile/live/0019_1.m3u8
 广东体育,http://74.91.26.218:82/live/gdty.m3u8
-广东体育,http://116.77.33.98:44330/tsfile/live/1004_1.m3u8?key=txiptv&playlive=0&authid=0
 广东体育,http://38.75.136.137:98/gslb/dsdqpub/gdty.m3u8?auth=testpub
 广东卫视,http://58.57.40.22:9901/tsfile/live/1039_1.m3u8
 广东卫视,http://23.237.228.134/live6/guangdong.m3u8
@@ -233,8 +227,8 @@ JJ斗地主,http://43.251.226.89:8080/play/1475.m3u8
 广东珠江,http://183.11.239.36:808/hls/83/index.m3u8
 广州竞赛,http://8.138.7.223/tv/gzjs.m3u8
 广西卫视,http://58.57.40.22:9901/tsfile/live/1049_1.m3u8
-广西卫视,http://23.237.228.134/live6/guangxi.m3u8
 广西卫视,http://23.237.228.134/live6/guizhou.m3u8
+广西卫视,http://23.237.228.134/live6/guangxi.m3u8
 广西卫视,http://60.16.0.216:5757/hls/45/index.m3u8
 广西国际,http://38.75.136.137:98/gslb/dsdqpub/gxgj.m3u8?auth=testpub
 广西新闻,http://38.75.136.137:98/gslb/dsdqpub/gxxw.m3u8?auth=testpub
@@ -247,7 +241,6 @@ JJ斗地主,http://43.251.226.89:8080/play/1475.m3u8
 新疆卫视,http://222.169.85.8:9901/tsfile/live/0110_1.m3u8
 新疆卫视,http://36.32.174.67:60080/newlive/live/hls/47/live.m3u8
 新视觉,http://120.76.248.139/live/bfgd/4200000249.m3u8
-无锡经济,http://43.251.226.89:8080/play/527.m3u8
 朝阳新闻综合,http://120.76.248.139/live/bfgd/4200000282.m3u8
 欢笑剧场,http://38.75.136.137:98/gslb/dsdqpub/hxjchd.m3u8?auth=testpub
 江夏新闻综合,http://59.175.226.142:280/gb28181/xwzh.m3u8?zhubd
@@ -272,7 +265,6 @@ JJ斗地主,http://43.251.226.89:8080/play/1475.m3u8
 河南卫视,http://183.222.242.31:8088/hls/35/index.m3u8
 河南卫视,http://120.211.62.180:8000/hls/40/index.m3u8
 河南卫视,http://61.136.172.236:9901/tsfile/live/0139_1.m3u8
-泗阳资讯,http://43.251.226.89:8080/play/530.m3u8
 浙江卫视,http://58.57.40.22:9901/tsfile/live/1029_1.m3u8
 浙江卫视,http://23.237.228.134/live6/zhejiang.m3u8
 浙江卫视,http://69.30.246.194/live/zjws.m3u8
@@ -291,13 +283,11 @@ JJ斗地主,http://43.251.226.89:8080/play/1475.m3u8
 深圳卫视,http://120.238.94.82:9901/tsfile/live/1065_1.m3u8
 深圳卫视,http://222.214.208.34:59901/tsfile/live/0126_1.m3u8
 深圳卫视,http://111.221.137.234:44330/tsfile/live/1013_1.m3u8?key=txiptv&playlive=0&authid=0
-深圳卫视,http://153.0.171.163:9901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
 湖北卫视,http://58.57.40.22:9901/tsfile/live/1038_1.m3u8
 湖北卫视,http://23.237.228.134/live6/hubei.m3u8
 湖北卫视,http://120.238.94.10:9901/tsfile/live/1055_1.m3u8
 湖北卫视,http://60.16.0.216:5757/hls/33/index.m3u8
 湖北卫视,http://124.116.183.146:9901/tsfile/live/0132_1.m3u8
-湖北经视,http://61.184.46.85:9901/tsfile/live/0019_1.m3u8?key=txiptv&playlive=1&authid=0
 湖南卫视,http://58.57.40.22:9901/tsfile/live/1028_1.m3u8
 湖南卫视,http://69.30.246.194/live/hnws.m3u8
 湖南卫视,http://23.237.228.134/live6/hunan.m3u8
@@ -340,7 +330,6 @@ JJ斗地主,http://43.251.226.89:8080/play/1475.m3u8
 辽宁经济,http://120.76.248.139/live/bfgd/4200000480.m3u8
 辽宁都市,http://120.76.248.139/live/bfgd/4200000068.m3u8
 辽宁都市,http://120.76.248.139/live/bfgd/4200000610.m3u8
-连云港新闻综合,http://43.251.226.89:8080/play/201.m3u8
 鄂托克旗电视台,http://110.19.181.138:10080/hls/F509Rh7GR/F509Rh7GR_live.m3u8?zneimd
 重庆卫视,http://23.237.228.134/live6/chongqing.m3u8
 重庆卫视,http://36.32.174.67:60080/newlive/live/hls/34/live.m3u8
@@ -366,14 +355,14 @@ JJ斗地主,http://43.251.226.89:8080/play/1475.m3u8
 陕西都市青春,http://112.46.105.20:8009/hls/19/index.m3u8
 陕西银龄,http://112.46.105.20:8009/hls/20/index.m3u8
 青海卫视,http://58.57.40.22:9901/tsfile/live/1057_1.m3u8
-青海卫视,http://23.237.228.134/live8/qinghai.m3u8
 青海卫视,http://120.238.94.10:9901/tsfile/live/1073_1.m3u8
 青海卫视,http://120.76.248.139/live/bfgd/4200000111.m3u8
+青海卫视,http://123.130.84.106:8154/tsfile/live/0140_1.m3u8
 青海卫视,http://111.61.236.247:9081/hls/49/index.m3u8
-靖天戏剧,http://220.135.64.124:5050/li-4gtv-4gtv058/index.m3u8?proxy=true
 靖天戏剧,http://220.135.64.124:5050/4gtv-4gtv058/index.m3u8?proxy=true
-靖天映画,http://220.135.64.124:5050/li-4gtv-4gtv055/index.m3u8?proxy=true
+靖天戏剧,http://220.135.64.124:5050/li-4gtv-4gtv058/index.m3u8?proxy=true
 靖天映画,http://220.135.64.124:5050/4gtv-4gtv055/index.m3u8?proxy=true
+靖天映画,http://220.135.64.124:5050/li-4gtv-4gtv055/index.m3u8?proxy=true
 风云剧场,http://120.238.94.10:9901/tsfile/live/1090_1.m3u8
 风云剧场,http://38.75.136.137:98/gslb/dsdqpub/fyjc.m3u8?auth=testpub
 风云音乐,http://120.238.94.10:9901/tsfile/live/1089_1.m3u8
