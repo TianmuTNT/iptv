@@ -1,4 +1,4 @@
-## ✨于 2026-04-04 01:35:44 更新
+## ✨于 2026-04-04 02:33:33 更新
 **🎉自用IPTV源**
 
 https://ghfast.top/raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.txt
@@ -6,7 +6,7 @@ https://ghfast.top/raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.txt
 https://ghfast.top/raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.m3u
 
 ## ☁️ 国内高性能服务器推荐 Rainyun 雨云
-### 🌟 [点击这里前往](https://github.com/TianmuTNT/awesome-digital-lifestyle/blob/main/cloud-and-vps.md) 可获得5折优惠！
+### 🌟 [点击这里前往](https://www.rainyun.com/skymc_) 可获得5折优惠！
 **🚀 为什么选择雨云？**
 
 性能不虚标：实际测试中 CPU 性能稳定，内存 IO 表现出色，比肩海外同价 VPS；
