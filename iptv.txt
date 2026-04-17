@@ -55,7 +55,7 @@ CCTV5+,http://58.57.40.22:9901/tsfile/live/1005_1.m3u8
 CCTV5+,http://107.150.60.122/live/cctv5p.m3u8
 CCTV5+,http://74.91.26.218:82/live/cctv5p.m3u8
 CCTV5+,http://120.76.248.139/live/bfgd/4200000246.m3u8
-CCTV5+,http://222.169.85.8:9901/tsfile/live/0116_1.m3u8
+CCTV5+,http://38.75.136.137:98/gslb/dsdqbv/cctv5p.m3u8?auth=test20251009
 CCTV6,http://58.57.40.22:9901/tsfile/live/1006_1.m3u8
 CCTV6,http://183.11.239.36:808/hls/94/index.m3u8
 CCTV6,http://120.76.248.139/live/bfgd/4200000065.m3u8
@@ -140,13 +140,14 @@ CHC电影,http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive
 四川卫视,http://222.169.85.8:9901/tsfile/live/0123_1.m3u8
 四川卫视,http://182.150.23.74:808/hls/38/index.m3u8
 四川卫视4K,http://39.152.103.17:8089/tsfile/live/1044_1.m3u8
+四川科教,http://182.150.115.21:8030/pcgacg/pcgacg_0.m3u8
 四海钓鱼,http://120.76.248.139/live/bfgd/4200000229.m3u8
 大湾区卫视,http://222.128.55.152:9080/live/dwq.m3u8
 天津卫视,http://58.57.40.22:9901/tsfile/live/1034_1.m3u8
 天津卫视,http://183.11.239.36:808/hls/42/index.m3u8
 天津卫视,http://112.46.85.60:8009/hls/44/index.m3u8
 天津卫视,http://182.150.23.74:808/hls/27/index.m3u8
-天津卫视,http://38.75.136.137:98/gslb/dsdqpub/tjwshd.m3u8?auth=testpub
+天津卫视,http://123.130.84.106:8154/tsfile/live/0135_1.m3u8
 奎屯哈萨克语,http://218.84.12.186:8002/hls/main/playlist.m3u8?zxinjd
 奎屯汉语,http://218.84.12.186:8001/hls/main/playlist.m3u8?zxinjd
 宁夏卫视,http://58.57.40.22:9901/tsfile/live/1054_1.m3u8
@@ -162,20 +163,15 @@ CHC电影,http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive
 山东卫视,http://120.76.248.139/live/bfgd/4200000099.m3u8
 山东卫视,http://182.150.23.74:808/hls/23/index.m3u8
 山东卫视,http://61.136.172.236:9901/tsfile/live/0131_1.m3u8
-山东卫视,http://222.169.85.8:9901/tsfile/live/0131_1.m3u8
+山东卫视,http://123.130.84.106:8154/tsfile/live/0131_1.m3u8
 山东文旅,http://58.57.40.22:9901/tsfile/live/1023_1.m3u8
 山西卫视,http://119.39.9.8:9901/tsfile/live/0118_1.m3u8
 广东卫视,http://58.57.40.22:9901/tsfile/live/1039_1.m3u8
 广东卫视,http://183.11.239.36:808/hls/80/index.m3u8
 广东卫视,http://120.76.248.139/live/bfgd/4200000092.m3u8
 广东卫视,http://222.169.85.8:9901/tsfile/live/0125_1.m3u8
-广东卫视,http://38.75.136.137:98/gslb/dsdqpub/gdwshd.m3u8?auth=testpub
-广东少儿,http://119.32.12.17:2901/udp/224.1.100.9:11111
-广东影视,http://119.32.12.17:2901/udp/224.1.100.11:11111
-广东新闻,http://119.32.12.17:2901/udp/224.1.100.5:11111
+广东卫视,http://123.130.84.106:8154/tsfile/live/0125_1.m3u8
 广东民生,http://183.11.239.36:808/hls/18/index.m3u8
-广东民生,http://119.32.12.17:2901/udp/224.1.100.4:11111
-广东经济科教,http://119.32.12.17:2901/udp/224.1.100.6:11111
 广州竞赛,http://8.138.7.223/tv/gzjs.m3u8
 广西卫视,http://58.57.40.22:9901/tsfile/live/1049_1.m3u8
 广西卫视,http://107.150.60.122/live/gxwshd.m3u8
@@ -206,7 +202,6 @@ CHC电影,http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive
 河北卫视,http://36.32.174.67:60080/newlive/live/hls/36/live.m3u8
 河北卫视,http://111.61.236.247:9081/hls/17/index.m3u8
 河北卫视,http://183.11.239.36:808/hls/54/index.m3u8
-河南卫视,http://58.57.40.22:9901/tsfile/live/1048_1.m3u8
 河南卫视,http://183.11.239.36:808/hls/51/index.m3u8
 河南卫视,http://120.76.248.139/live/bfgd/4200000339.m3u8
 浙江卫视,http://58.57.40.22:9901/tsfile/live/1029_1.m3u8
@@ -227,7 +222,7 @@ CHC电影,http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive
 湖北卫视,http://107.150.60.122/live/hbwshd.m3u8
 湖北卫视,http://120.76.248.139/live/bfgd/4200000102.m3u8
 湖北卫视,http://182.150.23.74:808/hls/28/index.m3u8
-湖北卫视,http://38.75.136.137:98/gslb/dsdqpub/hbwshd.m3u8?auth=testpub
+湖北卫视,http://123.130.84.106:8154/tsfile/live/0132_1.m3u8
 湖南卫视,http://58.57.40.22:9901/tsfile/live/1028_1.m3u8
 湖南卫视,http://74.91.26.218:82/live/hnwshd.m3u8
 玛纳斯,http://218.84.127.245:1026/hls/main1/playlist.m3u8?zxinjd
@@ -273,10 +268,11 @@ CHC电影,http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive
 重庆卫视,http://36.32.174.67:60080/newlive/live/hls/34/live.m3u8
 重庆卫视,http://183.11.239.36:808/hls/53/index.m3u8
 重庆卫视,http://120.76.248.139/live/bfgd/4200000107.m3u8
-重庆卫视,http://38.75.136.137:98/gslb/dsdqpub/cqwshd.m3u8?auth=testpub
+重庆卫视,http://123.130.84.106:8154/tsfile/live/0142_1.m3u8
 重庆新闻,http://38.75.136.137:98/gslb/dsdqpub/cqxw.m3u8?auth=testpub
 重庆汽摩,http://120.76.248.139/live/bfgd/4200000168.m3u8
 金鹰卡通,http://58.57.40.22:9901/tsfile/live/1059_1.m3u8
+金鹰卡通,http://125.43.247.245:9901/tsfile/live/1040_1.m3u8?key=txiptv&playlive=1&authid=0
 金鹰卡通,http://125.42.150.82:9901/tsfile/live/0107_1.m3u8?key=txiptv&playlive=1&authid=0
 铜梁综合,http://183.64.174.171:40123/ch1.m3u8?zzhongqd
 陕西卫视,http://107.150.60.122/live/snwshd.m3u8
@@ -287,6 +283,7 @@ CHC电影,http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive
 陕西银龄,http://112.46.105.20:8009/hls/20/index.m3u8
 青海卫视,http://58.57.40.22:9901/tsfile/live/1057_1.m3u8
 青海卫视,http://120.76.248.139/live/bfgd/4200000111.m3u8
+青海卫视,http://123.130.84.106:8154/tsfile/live/0140_1.m3u8
 青海卫视,http://111.61.236.247:9081/hls/49/index.m3u8
 青海卫视,http://38.75.136.137:98/gslb/dsdqpub/qhws.m3u8?auth=testpub
 风云剧场,http://38.75.136.137:98/gslb/dsdqpub/fyjc.m3u8?auth=testpub
@@ -297,7 +294,7 @@ CHC电影,http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive
 黑龙江卫视,http://58.57.40.22:9901/tsfile/live/1040_1.m3u8
 黑龙江卫视,http://120.76.248.139/live/bfgd/4200000095.m3u8
 黑龙江卫视,http://61.136.172.236:9901/tsfile/live/0143_1.m3u8
+黑龙江卫视,http://123.130.84.106:8154/tsfile/live/0143_1.m3u8
 黑龙江卫视,http://123.129.70.178:9901/tsfile/live/0143_1.m3u8
-黑龙江卫视,http://38.75.136.137:98/gslb/dsdqpub/hljwshd.m3u8?auth=testpub
 
 # IPv6 Streams
