@@ -2,23 +2,20 @@
 CCTV1,http://74.91.26.218:82/live/cctv1hd.m3u8
 CCTV12,http://120.76.248.139/live/bfgd/4200000131.m3u8
 CCTV12,http://74.91.26.218:82/live/cctv12hd.m3u8
-CCTV12,http://124.165.251.82:85/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV12,http://112.27.235.94:8000/hls/13/index.m3u8
+CCTV12,http://124.165.251.82:85/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV13,http://120.76.248.139/live/bfgd/4200000067.m3u8
 CCTV14,http://112.27.235.94:8000/hls/15/index.m3u8
 CCTV15,http://120.76.248.139/live/bfgd/4200000133.m3u8
-CCTV17,http://120.76.248.139/live/bfgd/4200000204.m3u8
 CCTV2,http://112.27.235.94:8000/hls/2/index.m3u8
 CCTV3,http://74.91.26.218:82/live/cctv3hd.m3u8
 CCTV3,http://222.169.85.8:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV5+,http://120.76.248.139/live/bfgd/4200000246.m3u8
 CCTV5+,http://112.27.235.94:8000/hls/6/index.m3u8
 CCTV6,http://112.27.235.94:8000/hls/7/index.m3u8
 CCTV8,http://124.165.251.82:85/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV9,http://74.91.26.218:82/live/cctv9hd.m3u8
 CHC电影,http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=0&authid=0
 万荣综合,http://60.222.246.220:19433/hls1.m3u8
-东南卫视,http://120.76.248.139/live/bfgd/4200000483.m3u8
 东方卫视,http://112.27.235.94:8000/hls/28/index.m3u8
 中华特产,http://120.76.248.139/live/bfgd/4200000158.m3u8
 乐至综合,http://175.155.106.72:89/live1/live1.m3u8?zsicd
@@ -38,12 +35,11 @@ CHC电影,http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive
 四川科教,http://182.150.115.21:8030/pcgacg/pcgacg_0.m3u8
 四海钓鱼,http://120.76.248.139/live/bfgd/4200000229.m3u8
 大湾区卫视,http://222.128.55.152:9080/live/dwq.m3u8
-天津卫视,http://112.27.235.94:8000/hls/42/index.m3u8
 天津卫视,http://222.169.85.8:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0
+天津卫视,http://112.27.235.94:8000/hls/42/index.m3u8
 奎屯哈萨克语,http://218.84.12.186:8002/hls/main/playlist.m3u8?zxinjd
 奎屯汉语,http://218.84.12.186:8001/hls/main/playlist.m3u8?zxinjd
 安徽综艺体育,http://112.27.235.94:8000/hls/25/index.m3u8
-山东卫视,http://120.76.248.139/live/bfgd/4200000099.m3u8
 山西卫视,http://119.39.9.8:9901/tsfile/live/0118_1.m3u8
 广东卫视,http://222.169.85.8:9901/tsfile/live/0125_1.m3u8?key=txiptv&playlive=1&authid=0
 广东民生,http://183.11.239.36:808/hls/18/index.m3u8
@@ -51,8 +47,6 @@ CHC电影,http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive
 新视觉,http://120.76.248.139/live/bfgd/4200000249.m3u8
 朝阳新闻综合,http://120.76.248.139/live/bfgd/4200000282.m3u8
 江津新闻,http://222.179.155.21:1935/ch1.m3u8?zzhongqd
-河北卫视,http://120.76.248.139/live/bfgd/4200000108.m3u8
-海南卫视,http://120.76.248.139/live/bfgd/4200000473.m3u8
 海南卫视,http://111.221.137.234:44330/tsfile/live/0117_1.m3u8?key=txiptv&playlive=0&authid=0
 深圳卫视,http://112.27.235.94:8000/hls/33/index.m3u8
 玛纳斯,http://218.84.127.245:1026/hls/main1/playlist.m3u8?zxinjd
@@ -67,13 +61,12 @@ CHC电影,http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive
 辽宁经济,http://120.76.248.139/live/bfgd/4200000076.m3u8
 辽宁都市,http://120.76.248.139/live/bfgd/4200000068.m3u8
 重庆汽摩,http://120.76.248.139/live/bfgd/4200000168.m3u8
+铜梁综合,http://183.64.174.171:40123/ch1.m3u8?zzhongqd
 陕西新闻咨询,http://112.46.105.20:8009/hls/18/index.m3u8
 陕西秦腔,http://112.46.105.20:8009/hls/22/index.m3u8
 陕西都市青春,http://112.46.105.20:8009/hls/19/index.m3u8
 陕西银龄,http://112.46.105.20:8009/hls/20/index.m3u8
-青海卫视,http://120.76.248.139/live/bfgd/4200000111.m3u8
 音乐欣赏,http://61.221.215.25:8800/hls/49/index.m3u8
-黑龙江卫视,http://120.76.248.139/live/bfgd/4200000095.m3u8
 黑龙江卫视,http://112.27.235.94:8000/hls/48/index.m3u8
 
 # IPv6 Streams
