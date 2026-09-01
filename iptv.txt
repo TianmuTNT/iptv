@@ -3,6 +3,7 @@ CCTV1,http://74.91.26.218:82/live/cctv1hd.m3u8
 CCTV12,http://74.91.26.218:82/live/cctv12hd.m3u8
 CCTV12,http://124.165.251.82:85/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV3,http://112.30.73.119:229/tsfile/live/0003_2.m3u8?key=txiptv&playlive=0&authid=0
+CCTV3,http://74.91.26.218:82/live/cctv3hd.m3u8
 CCTV3,http://222.169.85.8:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV5,http://112.30.73.119:9901/tsfile/live/0005_2.m3u8?key=txiptv&playlive=0&authid=0
 CCTV5+,http://223.78.65.165:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -11,7 +12,6 @@ CCTV9,http://74.91.26.218:82/live/cctv9hd.m3u8
 CHC电影,http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=0&authid=0
 万州三峡移民,http://123.146.162.24:8017/c2F0hmi/1000/live.m3u8
 万荣综合,http://60.222.246.220:19433/hls1.m3u8
-东森洋片,http://31.43.191.125:8080/vip6821768502490/6c17bae55394/34904
 乐至综合,http://175.155.106.72:89/live1/live1.m3u8?zsicd
 人间卫视,http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u
 伊犁哈萨克,http://110.153.180.106:55555/out_3/index.m3u8
@@ -42,8 +42,8 @@ CHC电影,http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive
 璧山综合,http://222.179.42.129:8181/hls1.m3u8
 甘肃卫视,http://218.13.170.98:9901/tsfile/live/0141_1.m3u8
 福建海峡卫视,http://38.64.72.148:80/hls/modn/list/4009/playlist.m3u8
-福建海峡卫视,http://38.64.72.148/hls/modn/list/4009/playlist.m3u8
 福建海峡卫视,http://38.64.72.148:80/hls/modn/list/4009/chunklist0.m3u8
+福建海峡卫视,http://38.64.72.148/hls/modn/list/4009/playlist.m3u8
 西安新闻,http://112.46.105.20:8009/hls/28/index.m3u8
 西安都市,http://112.46.105.20:8009/hls/29/index.m3u8
 西藏卫视,http://112.27.5.218:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0
