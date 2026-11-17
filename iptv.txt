@@ -35,6 +35,7 @@ CHC电影,http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive
 西藏卫视,http://112.27.5.218:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0
 辽宁卫视,http://61.136.172.236:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0
 金川新闻综合,http://139.203.180.9:90/live/zhxw.m3u8
+铜梁综合,http://183.64.174.171:40123/ch1.m3u8?zzhongqd
 陕西新闻咨询,http://112.46.105.20:8009/hls/18/index.m3u8
 陕西秦腔,http://112.46.105.20:8009/hls/22/index.m3u8
 陕西都市青春,http://112.46.105.20:8009/hls/19/index.m3u8
